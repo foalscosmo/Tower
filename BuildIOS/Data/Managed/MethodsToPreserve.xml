@@ -1,0 +1,79 @@
+<linker>
+	<assembly fullname="Assembly-CSharp" ignoreIfMissing="1">
+		<type fullname="HUD.HUDShop.UpgradeButtonManager">
+			<method name="UpgradeButtonInteract"/>
+			<method name="UpgradeButtonInteract"/>
+			<method name="UpgradeButtonInteract"/>
+			<method name="UpgradeButtonInteract"/>
+			<method name="UpgradeButtonInteract"/>
+		</type>
+		<type fullname="HUD.Menu.Shop.SelectedCards">
+			<method name="RemoveCard"/>
+			<method name="RemoveCard"/>
+			<method name="RemoveCard"/>
+			<method name="RemoveCard"/>
+			<method name="RemoveCard"/>
+			<method name="SetInGameCards"/>
+		</type>
+		<type fullname="HUD.Menu.Shop.ShopCardInteract">
+			<method name="Buttons"/>
+			<method name="Buttons"/>
+			<method name="Buttons"/>
+			<method name="Buttons"/>
+			<method name="Buttons"/>
+			<method name="Buttons"/>
+			<method name="Buttons"/>
+			<method name="Buttons"/>
+			<method name="Buttons"/>
+		</type>
+		<type fullname="HUD.Menu.Shop.ShopController">
+			<method name="ShopButtonInteract"/>
+			<method name="ShopButtonInteract"/>
+			<method name="ShopButtonInteract"/>
+			<method name="ShopButtonInteract"/>
+			<method name="ShopButtonInteract"/>
+			<method name="ShopButtonInteract"/>
+			<method name="ShopButtonInteract"/>
+			<method name="ShopButtonInteract"/>
+			<method name="ShopButtonInteract"/>
+		</type>
+		<type fullname="HUD.UI.ButtonInteract">
+			<method name="OnButtonClick"/>
+		</type>
+		<type fullname="HUD.UI.ExitButton">
+			<method name="ExitButtonInteract"/>
+			<method name="ExitButtonInteract"/>
+		</type>
+		<type fullname="HUD.UI.VolumeButton">
+			<method name="TurnMusic"/>
+		</type>
+		<type fullname="LoadScenes">
+			<method name="LoadScene"/>
+		</type>
+		<type fullname="SceneController">
+			<method name="ExitGame"/>
+			<method name="GoToMenu"/>
+			<method name="PauseGame"/>
+			<method name="ResetGame"/>
+			<method name="ResumeGame"/>
+		</type>
+		<type fullname="Tower.CardController">
+			<method name="UpgradeCards"/>
+			<method name="UpgradeCards"/>
+			<method name="UpgradeCards"/>
+			<method name="UpgradeCards"/>
+			<method name="UpgradeCards"/>
+		</type>
+		<type fullname="Tower.ShopTowerContainer">
+			<method name="RemoveCard"/>
+			<method name="RemoveCard"/>
+			<method name="RemoveCard"/>
+			<method name="RemoveCard"/>
+			<method name="RemoveCard"/>
+			<method name="SetInGameTowers"/>
+		</type>
+		<type fullname="Tower.TowerSpawner">
+			<method name="InstantiateTower"/>
+		</type>
+	</assembly>
+</linker>

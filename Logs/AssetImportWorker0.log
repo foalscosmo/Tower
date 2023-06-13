@@ -1,0 +1,2146 @@
+Unity Editor version:    2021.3.18f1 (3129e69bc0c7)
+Branch:                  2021.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 13.4 (Build 22F66)
+Darwin version:          22.5.0
+Architecture:            arm64
+Running under Rosetta:   NO
+Available memory:        16384 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/foalscosmo/Desktop/Tower Bass
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+50317
+Successfully changed project path to: /Users/foalscosmo/Desktop/Tower Bass
+/Users/foalscosmo/Desktop/Tower Bass
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [8454020608] Host "[IP] 192.168.1.8 [Port] 0 [Flags] 2 [Guid] 1854154928 [EditorId] 1854154928 [Version] 1048832 [Id] OSXEditor(0,procosmo) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [8454020608] Host "[IP] 192.168.1.8 [Port] 0 [Flags] 2 [Guid] 1854154928 [EditorId] 1854154928 [Version] 1048832 [Id] OSXEditor(0,procosmo) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 97.20 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.18f1 (3129e69bc0c7)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/foalscosmo/Desktop/Tower Bass/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+ preferred device: Apple M1 (high power)
+Metal devices available: 1
+0: Apple M1 (high power)
+Using device Apple M1 (high power)
+Initializing Metal device caps: Apple M1
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56726
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.000908 seconds.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 104.06 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.598 seconds
+Domain Reload Profiling:
+	ReloadAssembly (598ms)
+		BeginReloadAssembly (37ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (462ms)
+			LoadAssemblies (37ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (99ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (296ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (104ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (150ms)
+				ProcessInitializeOnLoadMethodAttributes (36ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002691 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/foalscosmo/Desktop/Tower Bass/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/foalscosmo/Desktop/Tower Bass/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.889 seconds
+Domain Reload Profiling:
+	ReloadAssembly (889ms)
+		BeginReloadAssembly (76ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (23ms)
+		EndReloadAssembly (710ms)
+			LoadAssemblies (37ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (249ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (330ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (80ms)
+				ProcessInitializeOnLoadAttributes (228ms)
+				ProcessInitializeOnLoadMethodAttributes (15ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (3ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.08 seconds
+Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3109 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (Unknown). Loaded Objects now: 3572.
+Memory consumption went from 107.4 MB to 107.5 MB.
+Total: 2.981833 ms (FindLiveObjects: 0.120708 ms CreateObjectMapping: 0.053292 ms MarkObjects: 2.713750 ms  DeleteObjects: 0.093083 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 22561.023959 seconds.
+  path: Assets/Scripts/Tower/CardDisplay.cs
+  artifactKey: Guid(10552680526a4186bb4f5d91b0419630) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Tower/CardDisplay.cs using Guid(10552680526a4186bb4f5d91b0419630) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13f26af9ca3755643f4ab276710c4574') in 0.054219 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Prefabs/Slash effects/Electro slash.prefab
+  artifactKey: Guid(4aa9f30a28a77224ba84b2a2c334c71b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic effects pack/Prefabs/Slash effects/Electro slash.prefab using Guid(4aa9f30a28a77224ba84b2a2c334c71b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a45e564f595a97a56007398d189eacb') in 0.567676 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Bugs/Demo Assets/Rotate.anim
+  artifactKey: Guid(f6eeca0c35b697641aeb7bf3127180ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bugs/Demo Assets/Rotate.anim using Guid(f6eeca0c35b697641aeb7bf3127180ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06cbda2587039fa27c3806a6447000cd') in 0.030971 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Textures/Mask1.png
+  artifactKey: Guid(c829f3f833484ac45b5b9150cb06631c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic effects pack/Textures/Mask1.png using Guid(c829f3f833484ac45b5b9150cb06631c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64d9bae7e5365af371d139b48cbc7b07') in 0.046111 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc
+  artifactKey: Guid(d930090c0cd643c7b55f19a38538c162) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc using Guid(d930090c0cd643c7b55f19a38538c162) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b707fb793fd60a56581099cf81a197e') in 0.030913 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Bugs
+  artifactKey: Guid(a946ee717f39c421992de6bab0dcf05e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bugs using Guid(a946ee717f39c421992de6bab0dcf05e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3963f8f0a4a0566e6017d22cbe53ace') in 0.000470 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Materials/Tower/Legendary.mat
+  artifactKey: Guid(b0c10f84460284989af10e14726b5c55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Tower/Legendary.mat using Guid(b0c10f84460284989af10e14726b5c55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8812d8d3b26e6cc5e979dea143f0e1a') in 0.058083 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Bugs/Demo Assets/Base Prefabs.prefab
+  artifactKey: Guid(b71f0a1959c50814ab931c25475edcba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bugs/Demo Assets/Base Prefabs.prefab using Guid(b71f0a1959c50814ab931c25475edcba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff9680fe9ed77398ec5f545d0a25a3a8') in 0.005520 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Bugs/Demo Assets/Rotate.controller
+  artifactKey: Guid(26ff82911b8d7f54e814aa3cff1dffa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bugs/Demo Assets/Rotate.controller using Guid(26ff82911b8d7f54e814aa3cff1dffa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62f51cf6be84cedd8f8f1cd7b7e1c17e') in 0.031148 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Scripts/HUD/Menu/Shop/ShopCardButtonContainer.cs
+  artifactKey: Guid(54095fed2a2b491c86844a3d04d50c11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/HUD/Menu/Shop/ShopCardButtonContainer.cs using Guid(54095fed2a2b491c86844a3d04d50c11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '529c6009655d666b3422a0e2a8c4b512') in 0.001000 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Prefabs/Tower/ArcticPole.prefab
+  artifactKey: Guid(191fc96fe4d71a8418c8e930398d15ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tower/ArcticPole.prefab using Guid(191fc96fe4d71a8418c8e930398d15ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '560dbb513cdf2482c2c657c0573443ec') in 0.023568 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Materials/Tower/Flame.mat
+  artifactKey: Guid(6ceec6e769013f74c9b553edb599c6fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Tower/Flame.mat using Guid(6ceec6e769013f74c9b553edb599c6fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f35dfb53dff812592ce4c54f6291a9b3') in 0.005618 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Prefabs/Character auras/Debuff.prefab
+  artifactKey: Guid(a58aa9a78f2b45b45bb0f3e2e1e3ad3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic effects pack/Prefabs/Character auras/Debuff.prefab using Guid(a58aa9a78f2b45b45bb0f3e2e1e3ad3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7b20030eb013d8ec6aa016d1f9ffecd') in 0.007179 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Prefabs/Tower/HeartMonk.prefab
+  artifactKey: Guid(c2a507aadbe3ba54ca199bc38abc341e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tower/HeartMonk.prefab using Guid(c2a507aadbe3ba54ca199bc38abc341e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03fde0ba6be562051afce2c236222615') in 0.015383 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Bugs/Animators/Polygonal Metalon 1.controller
+  artifactKey: Guid(b879575fc74f04033bd5e0d214bfb380) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bugs/Animators/Polygonal Metalon 1.controller using Guid(b879575fc74f04033bd5e0d214bfb380) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '473a54190d9e6f7514e5c5e2adeefa03') in 0.003809 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Scriptable Objects
+  artifactKey: Guid(eb28ee76ecca04b03994d6d29d9c5921) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scriptable Objects using Guid(eb28ee76ecca04b03994d6d29d9c5921) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef98a873c0476924721acf7545259f36') in 0.000542 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/WizardPolyArt/Materials/Skybox_Mat.mat
+  artifactKey: Guid(876adbb903b878f42bc10fc9ae36b9a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WizardPolyArt/Materials/Skybox_Mat.mat using Guid(876adbb903b878f42bc10fc9ae36b9a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad50d1971e9303a52938cc4a1cd0faf3') in 0.164851 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Prefabs/Portals/Portal blue.prefab
+  artifactKey: Guid(45e0f06c750176947862c10346226439) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic effects pack/Prefabs/Portals/Portal blue.prefab using Guid(45e0f06c750176947862c10346226439) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd23e7a4c0383103677797f08976dc79b') in 0.070387 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/TextMesh Pro/Shaders
+  artifactKey: Guid(e9f693669af91aa45ad615fc681ed29f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Shaders using Guid(e9f693669af91aa45ad615fc681ed29f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16852098a277b7ddedd49287b21bfbc7') in 0.000533 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Animations/AnimatorController/Legendary.controller
+  artifactKey: Guid(2890c9060ce4f6b45b4082d87f47b27e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/AnimatorController/Legendary.controller using Guid(2890c9060ce4f6b45b4082d87f47b27e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42f8d9bcad3f540dd1a271237620837f') in 0.002455 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Hovl Studio
+  artifactKey: Guid(0b31d124a34f94241b3b5fbaa8745367) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio using Guid(0b31d124a34f94241b3b5fbaa8745367) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3680b56686edc1aaab80bd416e30c9f') in 0.000482 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000132 seconds.
+  path: Assets/Scripts/Castle/CastleHealth.cs
+  artifactKey: Guid(ce33c57b408f449c3b68cf393593086f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Castle/CastleHealth.cs using Guid(ce33c57b408f449c3b68cf393593086f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38bbf4f8e6328d1050235ad1cd6aade8') in 0.000731 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Scripts/Enemy/Controller
+  artifactKey: Guid(66863af641d3b462a966a1b0ad4f8071) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Enemy/Controller using Guid(66863af641d3b462a966a1b0ad4f8071) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e76d52a6bf32279f166e9d1caacb3c25') in 0.000518 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/WizardPolyArt/Mesh/Staff02Polyart.fbx
+  artifactKey: Guid(2c0ecfd652b241a49bd3082fed66c356) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WizardPolyArt/Mesh/Staff02Polyart.fbx using Guid(2c0ecfd652b241a49bd3082fed66c356) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c5ab72a9739e8dbee95dcedb8fd8540') in 0.069095 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Bugs/Textures/Polygonal Metalon Purple.psd
+  artifactKey: Guid(450844baa6aa19b4caf45ab26b4255a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bugs/Textures/Polygonal Metalon Purple.psd using Guid(450844baa6aa19b4caf45ab26b4255a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e6e56d99970b0acaa9ae43fc1bf4df7') in 0.374284 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Demo scene/Demo fire 1Settings.lighting
+  artifactKey: Guid(cc583a507aec7d7468e37b31623c7b2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic effects pack/Demo scene/Demo fire 1Settings.lighting using Guid(cc583a507aec7d7468e37b31623c7b2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) LightingSettings: switching bake backend from 2 to 0.
+ -> (artifact id: '7c95cf4ac9e4e94046adff7beedb2181') in 0.031134 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Scriptable Objects/Towers
+  artifactKey: Guid(1fe0415b61fcc4c0a894633a302afe29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scriptable Objects/Towers using Guid(1fe0415b61fcc4c0a894633a302afe29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f30e10f4720e89110087d0477bc3d54c') in 0.000482 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Scripts/HUD/UI/HUDButtonController.cs
+  artifactKey: Guid(71444efdd1fd74cc1b65a9ab998b281f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/HUD/UI/HUDButtonController.cs using Guid(71444efdd1fd74cc1b65a9ab998b281f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de2b282e2f6694f2fca14f18945c63ef') in 0.000579 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Bugs/Prefabs
+  artifactKey: Guid(0110e0513c67e6149ba81d4faa1bb83e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bugs/Prefabs using Guid(0110e0513c67e6149ba81d4faa1bb83e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48cd09a7de710d44e9e6fd0add1aa9a7') in 0.000421 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Textures/Stone.png
+  artifactKey: Guid(ad3c6deb60874964aa592b7f1458ac54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic effects pack/Textures/Stone.png using Guid(ad3c6deb60874964aa592b7f1458ac54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6870d37507c662de993e98310f882d43') in 0.005026 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Scripts/HUD/Menu
+  artifactKey: Guid(9e6158ba2d1b74eeb82d2ef23e980f45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/HUD/Menu using Guid(9e6158ba2d1b74eeb82d2ef23e980f45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34eaaeb24629348290bba31339de3150') in 0.000533 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/WizardPolyArt/Prefabs/PolyArtWizardMaskTintMat.prefab
+  artifactKey: Guid(dbf7a0c9d76b77a40af3104feac0641d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WizardPolyArt/Prefabs/PolyArtWizardMaskTintMat.prefab using Guid(dbf7a0c9d76b77a40af3104feac0641d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dd56593cdaa90f7cff1e65c2e128a82') in 0.009829 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Sound/Under Black Helmet - Impulsive Behavior [MORD043].mp3
+  artifactKey: Guid(72a6ef88a6967364aaf6d2ced15ace84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sound/Under Black Helmet - Impulsive Behavior [MORD043].mp3 using Guid(72a6ef88a6967364aaf6d2ced15ace84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5f53c00081c4f1b1efd4bf5aa8ff669') in 0.468244 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Prefabs/Portals/Portal red.prefab
+  artifactKey: Guid(52c7d057cba585641bb68312c10d7791) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic effects pack/Prefabs/Portals/Portal red.prefab using Guid(52c7d057cba585641bb68312c10d7791) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cd2ba973a855ecbfce3bf25600ff95c') in 0.007467 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Scripts/Tower
+  artifactKey: Guid(4cbab8cf5feda4925948aba29c36c4e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Tower using Guid(4cbab8cf5feda4925948aba29c36c4e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '323fe158ce39b25c281619c3c54c6b3a') in 0.000531 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Scripts/Tower/FreezerTowerBehaviour.cs
+  artifactKey: Guid(ddb78f4c98cf42dd9847513626f7c853) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Tower/FreezerTowerBehaviour.cs using Guid(ddb78f4c98cf42dd9847513626f7c853) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f6be1e1eafd31e5d17b77b490627a26') in 0.000601 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Materials/Flash.mat
+  artifactKey: Guid(db3488de871721d4f83250ff2af716b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic effects pack/Materials/Flash.mat using Guid(db3488de871721d4f83250ff2af716b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '009f2444b27785fbc458e4a2db5ffa72') in 0.012773 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Scripts/HUD/HUDShop/HudShop.cs
+  artifactKey: Guid(c6676ca827e45496fb9e1a44abc4588a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/HUD/HUDShop/HudShop.cs using Guid(c6676ca827e45496fb9e1a44abc4588a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00f73d9ebfc49a07bf6e62f953c7249e') in 0.000690 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/WizardPolyArt/Textures/ForPBRMaskTintShader
+  artifactKey: Guid(26c3828e39e3e9e41a2b22bcb4dc7520) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WizardPolyArt/Textures/ForPBRMaskTintShader using Guid(26c3828e39e3e9e41a2b22bcb4dc7520) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78395919e23f80ccc717a2a45a9c47fe') in 0.000419 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Prefabs/Character auras/Lightning aura.prefab
+  artifactKey: Guid(4d9a3b35b3bc07649b697df7fb497b6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic effects pack/Prefabs/Character auras/Lightning aura.prefab using Guid(4d9a3b35b3bc07649b697df7fb497b6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a99dad530cfa74807d2704aa6bc1ef89') in 0.006557 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt
+  artifactKey: Guid(fade42e8bc714b018fac513c043d323b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt using Guid(fade42e8bc714b018fac513c043d323b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7f67ab3dc26da4e8ae25e3f4e491d00') in 1.276584 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Scripts/GameManager.cs
+  artifactKey: Guid(8dcecb90525594b4cab03255c1b19efd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManager.cs using Guid(8dcecb90525594b4cab03255c1b19efd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3096fb6faf22adb60a60e97a711a47de') in 0.000667 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/TextMesh Pro/Fonts
+  artifactKey: Guid(6ab70aee4d56447429c680537fbf93ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts using Guid(6ab70aee4d56447429c680537fbf93ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c35bbd85dc86dd2ef332d439fd9c360') in 0.000425 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Bugs/Textures/Polygonal Metalon Red.psd
+  artifactKey: Guid(fe164343ee8f22a49aef4febac70ba6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bugs/Textures/Polygonal Metalon Red.psd using Guid(fe164343ee8f22a49aef4febac70ba6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd40507b507f42c04958a7de8e2a584d4') in 0.006446 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Prefabs
+  artifactKey: Guid(ff8106191eca04e2fa9ef3b8ce26242c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs using Guid(ff8106191eca04e2fa9ef3b8ce26242c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4aabeb7047c64dd5321e09f8e0770ddc') in 0.000517 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Hovl Studio/Resources
+  artifactKey: Guid(f553b207639f79549bc12ac8a2681eac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Resources using Guid(f553b207639f79549bc12ac8a2681eac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9856787708612431ff070b39a6b75ba6') in 0.000462 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Materials/Tower/Epic.mat
+  artifactKey: Guid(465f6500be5e643d1a4bc94948e5c1f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Tower/Epic.mat using Guid(465f6500be5e643d1a4bc94948e5c1f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad8ca28337cbdd0147667d90184203f8') in 0.005177 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Prefabs/Hits and explosions
+  artifactKey: Guid(68268cae718ee3a49928d3510623883e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic effects pack/Prefabs/Hits and explosions using Guid(68268cae718ee3a49928d3510623883e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e22017adb90968db7bd7071c68045873') in 0.000446 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/TextMesh Pro
+  artifactKey: Guid(f54d1bd14bd3ca042bd867b519fee8cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro using Guid(f54d1bd14bd3ca042bd867b519fee8cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5648c5ef36b7beab651a001a8d08867') in 0.000385 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/WizardPolyArt
+  artifactKey: Guid(f0fc600ce21e8457095011e054b6b99d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WizardPolyArt using Guid(f0fc600ce21e8457095011e054b6b99d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ead02bf75c5ffb58491cf16964fe4006') in 0.000388 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Scripts/Enemy
+  artifactKey: Guid(69da54c84df1c4b73814e77946fcaf42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Enemy using Guid(69da54c84df1c4b73814e77946fcaf42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3651b302f8ac56068581ccb31c3a3b4b') in 0.000385 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Demo scene/ReflectionProbe-0.exr
+  artifactKey: Guid(b437cf6f67f5f1c4e9f1876cbbb8aceb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic effects pack/Demo scene/ReflectionProbe-0.exr using Guid(b437cf6f67f5f1c4e9f1876cbbb8aceb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6257422418d7c94848e1b627a29b36fe') in 0.435106 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/WizardPolyArt/Materials/Stage.mat
+  artifactKey: Guid(df444e54394320b46be51688da21f95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WizardPolyArt/Materials/Stage.mat using Guid(df444e54394320b46be51688da21f95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53709e1509dad3d51166127bf78ebf24') in 0.279660 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Textures/Electro.png
+  artifactKey: Guid(ede7b7fc6b09fcc41892be0d6935c8cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic effects pack/Textures/Electro.png using Guid(ede7b7fc6b09fcc41892be0d6935c8cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8c298ce97e8d561226c53d6b30cd403') in 0.004808 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Materials/Tower/Cloud.mat
+  artifactKey: Guid(686559d9946a6f64e9171fb106c0c265) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Tower/Cloud.mat using Guid(686559d9946a6f64e9171fb106c0c265) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53108a5c5e32bce3074f1942319e84ec') in 0.005253 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Scripts/HUD/UI/ExitButton.cs
+  artifactKey: Guid(8352b40815112456c8ddb220379ba285) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/HUD/UI/ExitButton.cs using Guid(8352b40815112456c8ddb220379ba285) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20f2bdcf3d92d4fae29ebdb1f12ef80a') in 0.000724 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Scriptable Objects/Towers/BulletExplosion.asset
+  artifactKey: Guid(67acd45cfbe994f048358b5f319d1022) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scriptable Objects/Towers/BulletExplosion.asset using Guid(67acd45cfbe994f048358b5f319d1022) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1629de4e3cf54a238993cbaf03912b79') in 0.029456 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Scripts/Tower/TowerSpawner.cs
+  artifactKey: Guid(2d5d66fc3dc145f799e88f63b9e531fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Tower/TowerSpawner.cs using Guid(2d5d66fc3dc145f799e88f63b9e531fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fdfa419f5a1d3637e13e4472a41659d') in 0.000816 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/TextMesh Pro/Creepster-Regular SDF.asset
+  artifactKey: Guid(86227b38fefc9ef4eb367860f8b5a4ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Creepster-Regular SDF.asset using Guid(86227b38fefc9ef4eb367860f8b5a4ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9455e84b70514e0772f4f35e41a12d9f') in 0.083350 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Sprites/On.png
+  artifactKey: Guid(7c2962c655a42984abf7b4a857800d8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/On.png using Guid(7c2962c655a42984abf7b4a857800d8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc7909c8bcb7276919894c5b8b454aea') in 0.014342 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Materials/Tower/Freez.mat
+  artifactKey: Guid(cb902bad17c82264baf0084c3797383a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Tower/Freez.mat using Guid(cb902bad17c82264baf0084c3797383a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38e587213dbe97759fc7a21fab90552c') in 0.005382 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Prefabs/Portals/Portal green.prefab
+  artifactKey: Guid(13c990b8270c70b4c9f196019286028c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic effects pack/Prefabs/Portals/Portal green.prefab using Guid(13c990b8270c70b4c9f196019286028c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4e1851415880c089d005cbd856fa4fd') in 0.007784 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/WizardPolyArt/Textures
+  artifactKey: Guid(6dd69763776060043b55a719201b13e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WizardPolyArt/Textures using Guid(6dd69763776060043b55a719201b13e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fee593fc850d51bbca797707c25f5f96') in 0.000516 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Textures/Smoke26.png
+  artifactKey: Guid(08b3912bdc0a5ed4d9a27125425a97f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic effects pack/Textures/Smoke26.png using Guid(08b3912bdc0a5ed4d9a27125425a97f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a48ae1f4ad3a1e5d1d762f1ed91250e7') in 0.005065 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Bugs/Textures/Polygonal Metalon Green.psd
+  artifactKey: Guid(eb118efcd9688724695a55b9619a35a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bugs/Textures/Polygonal Metalon Green.psd using Guid(eb118efcd9688724695a55b9619a35a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d01fb3eb7f3057859e00e67b815b831') in 0.005656 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Prefabs/Character auras/Love aura.prefab
+  artifactKey: Guid(43d1d06cf70fcb2488255051aaae40a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic effects pack/Prefabs/Character auras/Love aura.prefab using Guid(43d1d06cf70fcb2488255051aaae40a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcc41467227605512073e90483e8db6e') in 0.006854 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Materials/Tower/Neck.mat
+  artifactKey: Guid(6ebd04415fc37bc4bb7a64478d25edd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Tower/Neck.mat using Guid(6ebd04415fc37bc4bb7a64478d25edd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c7b2245b089e84f8b38e910968e5c59') in 0.005311 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Prefabs/Hits and explosions/Love hit.prefab
+  artifactKey: Guid(356cf4dca1465b54fabbb8cd9b1cd190) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic effects pack/Prefabs/Hits and explosions/Love hit.prefab using Guid(356cf4dca1465b54fabbb8cd9b1cd190) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1364cdb7da6e6bfff612e826306aca41') in 0.005950 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Textures/Gradient.png
+  artifactKey: Guid(878972c3151f97940b2c53535a0d1ce5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic effects pack/Textures/Gradient.png using Guid(878972c3151f97940b2c53535a0d1ce5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cccc68e7d77f9af3b6a897e3feef2f74') in 0.004414 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Textures/Circle.png
+  artifactKey: Guid(c4cf9c9f7cf52f6409ef75a08a4357ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic effects pack/Textures/Circle.png using Guid(c4cf9c9f7cf52f6409ef75a08a4357ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa664844cbdaf5af353fcc66cfda3773') in 0.004281 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader
+  artifactKey: Guid(48bb5f55d8670e349b6e614913f9d910) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader using Guid(48bb5f55d8670e349b6e614913f9d910) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '535ecb84b40c7e32ade90d420e4a0266') in 0.030684 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/WizardPolyArt/Textures/ForPBRMaskTintShader/PolyArtAlbedo.png
+  artifactKey: Guid(4960428282afaef44ab798134d3c2db0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WizardPolyArt/Textures/ForPBRMaskTintShader/PolyArtAlbedo.png using Guid(4960428282afaef44ab798134d3c2db0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f2f60494b460b55bd827161f9c2d17e') in 0.003891 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Prefabs
+  artifactKey: Guid(30f354b2984b43147b902803fe8a4ce7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic effects pack/Prefabs using Guid(30f354b2984b43147b902803fe8a4ce7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '151eb4e0683c5f94695f719ac617c8be') in 0.000468 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+  artifactKey: Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset using Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa2db5926e5c5049e7e21b007fb94b69') in 0.043004 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Scripts/Tower/Card.cs
+  artifactKey: Guid(cf2420c873dd40fba4ef989c23ba770a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Tower/Card.cs using Guid(cf2420c873dd40fba4ef989c23ba770a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '659bef845080789ff9575f2a0c01fc90') in 0.000726 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Textures/Splat.png
+  artifactKey: Guid(00282aad0def9f942a895c41d7389b8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic effects pack/Textures/Splat.png using Guid(00282aad0def9f942a895c41d7389b8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af83a6f9c38232aff25ce4437425eb65') in 0.004070 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset
+  artifactKey: Guid(f952c082cb03451daed3ee968ac6c63e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset using Guid(f952c082cb03451daed3ee968ac6c63e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c72200549b97ff12ff44a36c3fabf96c') in 0.001353 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Textures/Flare.png
+  artifactKey: Guid(96a713cc4a0aa464caab5d8fad5911e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic effects pack/Textures/Flare.png using Guid(96a713cc4a0aa464caab5d8fad5911e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd109a932bba8688959320c02b8a76324') in 0.004018 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Prefabs/Ui/List of cards.prefab
+  artifactKey: Guid(60be08f31770d406d98cbe2d0755d53a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Ui/List of cards.prefab using Guid(60be08f31770d406d98cbe2d0755d53a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0192a002db9ea0fd91e6f2e9fc0a497') in 0.002867 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Materials/Tower/Arctic.mat
+  artifactKey: Guid(bc69fc6ad5b6c7645aa0c00ecda79767) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Tower/Arctic.mat using Guid(bc69fc6ad5b6c7645aa0c00ecda79767) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f9f3970b38cdf26072747eeecd8a884') in 0.005291 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Scripts/HUD/HUDShop
+  artifactKey: Guid(e694376d6c5724264aea895364e9a1db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/HUD/HUDShop using Guid(e694376d6c5724264aea895364e9a1db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49f7c09c6e7cc53109988874a46206c5') in 0.000538 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Scripts/HUD/UI/SetScore.cs
+  artifactKey: Guid(3a162861d1fe34f208cade4b176d8f27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/HUD/UI/SetScore.cs using Guid(3a162861d1fe34f208cade4b176d8f27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a74271593af53e86152e88d9080f3ecc') in 0.000575 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Prefabs/Magic circles/Freeze circle.prefab
+  artifactKey: Guid(0e5709a7ddb77924090c112cf73bb98a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic effects pack/Prefabs/Magic circles/Freeze circle.prefab using Guid(0e5709a7ddb77924090c112cf73bb98a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71418edac79af924acd85a3bf41ed417') in 0.007202 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/WizardPolyArt/Prefabs/Staff03PolyArt.prefab
+  artifactKey: Guid(c413fed5af1bfe847af0ed883ee868db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WizardPolyArt/Prefabs/Staff03PolyArt.prefab using Guid(c413fed5af1bfe847af0ed883ee868db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bd02d94b87da555d178df51979c823a') in 0.004756 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Prefabs/Tower
+  artifactKey: Guid(03db46f57a3c543e0a1674a180058bc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tower using Guid(03db46f57a3c543e0a1674a180058bc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42c4ee922ef3944260fa32496200ab21') in 0.000470 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Materials/Floor3.mat
+  artifactKey: Guid(ca6fd35d7de69cb449d560ab9228d502) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic effects pack/Materials/Floor3.mat using Guid(ca6fd35d7de69cb449d560ab9228d502) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a2068830ad26adab903f04df0f0f93c') in 0.334104 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Hovl Studio/Resources/Settings
+  artifactKey: Guid(f06604279c095ca4f9d12f8d8fca844f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Resources/Settings using Guid(f06604279c095ca4f9d12f8d8fca844f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e80d9692af61c9c5b37deeeebeabdccd') in 0.000745 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Prefabs/Tower/NothHunter.prefab
+  artifactKey: Guid(13891f03de2228d4eb3d6904d08b51f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tower/NothHunter.prefab using Guid(13891f03de2228d4eb3d6904d08b51f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a22f9557c7295b212682d6fa0bc65702') in 0.014410 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Models/Cylinder.fbx
+  artifactKey: Guid(4a8c064de5d1b4045a9e9d4ebd5d6575) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic effects pack/Models/Cylinder.fbx using Guid(4a8c064de5d1b4045a9e9d4ebd5d6575) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba36966f24421728c0f5e9a713799848') in 0.006920 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Scripts/Enemy/Particle
+  artifactKey: Guid(337f6dbcb96f040dabf1c5d172c131a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Enemy/Particle using Guid(337f6dbcb96f040dabf1c5d172c131a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10c0c50f9c2b1140efd35cd6470831ee') in 0.000568 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Animations/PolyArtWizardMesh@Hip Hop Dancing.fbx
+  artifactKey: Guid(57ee9cf3c13b749aebc9b2fb8e47b2aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/PolyArtWizardMesh@Hip Hop Dancing.fbx using Guid(57ee9cf3c13b749aebc9b2fb8e47b2aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fdfcb75ed38cd0330ddd19cfd41d90c') in 0.005585 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset
+  artifactKey: Guid(c41005c129ba4d66911b75229fd70b45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset using Guid(c41005c129ba4d66911b75229fd70b45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3950451084668360d05945240589cf11') in 0.002694 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Prefabs/Enemy/Bug.prefab
+  artifactKey: Guid(9f35e653bf6314b879a6c72727a9e877) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enemy/Bug.prefab using Guid(9f35e653bf6314b879a6c72727a9e877) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91937b029822696dc700c65d13d23999') in 0.041857 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Bugs/FBX/Polygonal Metalon.FBX
+  artifactKey: Guid(66ca9bf0145725543a1e8a693589f362) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bugs/FBX/Polygonal Metalon.FBX using Guid(66ca9bf0145725543a1e8a693589f362) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecb4833571c174cc6477ce1840fe6b16') in 0.050687 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Materials
+  artifactKey: Guid(a342b6520836d4e40bf3cae8acbccd18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic effects pack/Materials using Guid(a342b6520836d4e40bf3cae8acbccd18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55896dc672df433c29e0eb1aabcb622e') in 0.000604 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Bugs/Scenes
+  artifactKey: Guid(588879e92147ce14a8658dde4e11502a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bugs/Scenes using Guid(588879e92147ce14a8658dde4e11502a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd256212e79f9b948622a2f604bdf1315') in 0.000425 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Textures/Trail67.png
+  artifactKey: Guid(c4f655f5d01f55547a23a546b58afd04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic effects pack/Textures/Trail67.png using Guid(c4f655f5d01f55547a23a546b58afd04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a817f818f4fa8f39184276ed7a639081') in 0.003687 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Bugs/Demo Assets/Demo Ground 1.mat
+  artifactKey: Guid(0aae032dca142c1458bfb151bb2e2f6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bugs/Demo Assets/Demo Ground 1.mat using Guid(0aae032dca142c1458bfb151bb2e2f6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f30469eea22562f04174ca7f9c663c00') in 0.004832 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Textures/MagicCircle.png
+  artifactKey: Guid(3dce5bac285284a46b6cf77e52dfcd98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic effects pack/Textures/MagicCircle.png using Guid(3dce5bac285284a46b6cf77e52dfcd98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '977d87345fb283c4bcf1008479758915') in 0.005146 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Bugs/Materials/Polygonal Metalon Green.mat
+  artifactKey: Guid(eb8fac8d0552e3f499a0eca1d3932a07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bugs/Materials/Polygonal Metalon Green.mat using Guid(eb8fac8d0552e3f499a0eca1d3932a07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e465714fee3229a28f1fa08b078c670e') in 0.006363 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/WizardPolyArt/Materials/PolyArtStandardMaterial.mat
+  artifactKey: Guid(c33a548d6df8c8a4daca736f3300dd9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WizardPolyArt/Materials/PolyArtStandardMaterial.mat using Guid(c33a548d6df8c8a4daca736f3300dd9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60ec02096a3ccdda0869cf2fbaa7aa79') in 0.004927 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_Sprite.shader
+  artifactKey: Guid(cf81c85f95fe47e1a27f6ae460cf182c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Shaders/TMP_Sprite.shader using Guid(cf81c85f95fe47e1a27f6ae460cf182c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0eb27aa1f4b37982acb8ed7e0c3aac7d') in 0.001033 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Materials/Tower/Uncommon.mat
+  artifactKey: Guid(d78f195ff11a44fdd8e153efb5d5ce72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Tower/Uncommon.mat using Guid(d78f195ff11a44fdd8e153efb5d5ce72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2762042bb0fb1dda800f76cba4447a79') in 0.004819 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Materials/Gradient.mat
+  artifactKey: Guid(2ae196836e3f6ce438e93e246a6ab900) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic effects pack/Materials/Gradient.mat using Guid(2ae196836e3f6ce438e93e246a6ab900) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa3387a960b08ac7897a99c8dc900eb8') in 0.004630 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Prefabs/AoE effects
+  artifactKey: Guid(f0e78b2e61a2b2f40bf0a0be9e842772) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic effects pack/Prefabs/AoE effects using Guid(f0e78b2e61a2b2f40bf0a0be9e842772) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'caf2f89897c7dba0c95cd9eed73f4601') in 0.000491 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt
+  artifactKey: Guid(381dcb09d5029d14897e55f98031fca5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt using Guid(381dcb09d5029d14897e55f98031fca5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f71b2d21205dc6ff6abedf9e764a644') in 0.000889 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Materials/Tower/Heart.mat
+  artifactKey: Guid(761b213e851a40b498a3c937ecfd5b7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Tower/Heart.mat using Guid(761b213e851a40b498a3c937ecfd5b7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f84f39283f0f4ad4114e4f6c6c09a30') in 0.005189 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Textures/Point1.png
+  artifactKey: Guid(640e93060c8b460449dc5d4f16193387) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic effects pack/Textures/Point1.png using Guid(640e93060c8b460449dc5d4f16193387) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f6cacb2b380529e51659632d8209343') in 0.003442 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Prefabs/Tower/CloudLight.prefab
+  artifactKey: Guid(de02e20ee1f1a6b4dafb10c04ac5a709) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tower/CloudLight.prefab using Guid(de02e20ee1f1a6b4dafb10c04ac5a709) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b10b35b74c5e743b046d5f19281f031') in 0.014290 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Animations/PolyArtWizardMesh@Snake Hip Hop Dance.fbx
+  artifactKey: Guid(1cf35aa69dfb94a03be07a462d44f02a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/PolyArtWizardMesh@Snake Hip Hop Dance.fbx using Guid(1cf35aa69dfb94a03be07a462d44f02a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc70177e49177623aa4fa812054b6750') in 0.005045 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Materials/MagicCircle2.mat
+  artifactKey: Guid(b56ee68f36d76a648a742b6874f4d4a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic effects pack/Materials/MagicCircle2.mat using Guid(b56ee68f36d76a648a742b6874f4d4a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '758d6b8182ef0e2866fb78d3aac138f4') in 0.005880 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Scripts/Castle/CastleUi.cs
+  artifactKey: Guid(34c5fda275284ddcaeb4092c1da7af4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Castle/CastleUi.cs using Guid(34c5fda275284ddcaeb4092c1da7af4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd22baccee60bf6033bcf99fae79f5d4') in 0.000669 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat
+  artifactKey: Guid(79459efec17a4d00a321bdcc27bbc385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat using Guid(79459efec17a4d00a321bdcc27bbc385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64d6b39fac1bf17fe9eb5c6f1d53cb8d') in 0.099470 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Scriptable Objects/Towers/NeckBone.asset
+  artifactKey: Guid(f1a1448b1d04b49198e157aa497d3417) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scriptable Objects/Towers/NeckBone.asset using Guid(f1a1448b1d04b49198e157aa497d3417) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bea3e213dff4f01d87b91e644ddb36c') in 0.001127 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Bugs/Scenes/Demo.unity
+  artifactKey: Guid(7a5c4650727e8544d96a1d27f810cefa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bugs/Scenes/Demo.unity using Guid(7a5c4650727e8544d96a1d27f810cefa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '185ab89643710aee69523fb97258dd00') in 0.000461 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Scripts/Tower/SupportTowerBehaviour.cs
+  artifactKey: Guid(df606c2a70544f7ab09ac4ca784907d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Tower/SupportTowerBehaviour.cs using Guid(df606c2a70544f7ab09ac4ca784907d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4cf37e4087dc0abb17d583a924a387b') in 0.000562 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/TextMesh Pro/Resources/Sprite Assets
+  artifactKey: Guid(512a49d95c0c4332bdd98131869c23c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Sprite Assets using Guid(512a49d95c0c4332bdd98131869c23c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dcb9dc3060b39f33c350934f5d461fd') in 0.000409 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Scripts/HUD
+  artifactKey: Guid(40c592af33c544a38bfd032d72b383e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/HUD using Guid(40c592af33c544a38bfd032d72b383e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2d54a331d62e599a26cd604c7d278ac') in 0.000389 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Bugs/READ ME/Polygonal Series Guide.pdf
+  artifactKey: Guid(5c61eb0465bb9074e87abd765dd53be0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bugs/READ ME/Polygonal Series Guide.pdf using Guid(5c61eb0465bb9074e87abd765dd53be0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e730df8d8d598d10895330b87faafa1c') in 0.048799 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Animations/PolyArtWizardMesh@Silly Dancing.fbx
+  artifactKey: Guid(2fa2979009f6e4ca69b504a86c314723) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/PolyArtWizardMesh@Silly Dancing.fbx using Guid(2fa2979009f6e4ca69b504a86c314723) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fbad85134f3cb46d97b75ad2dceb998') in 0.003969 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/WizardPolyArt/Scene/WizardScene.unity
+  artifactKey: Guid(1bf912b9f8baab0489fd62f6c317e8a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WizardPolyArt/Scene/WizardScene.unity using Guid(1bf912b9f8baab0489fd62f6c317e8a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f8afbdb5a9451e09d3a13e55bbdc080') in 0.000455 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader
+  artifactKey: Guid(dd89cf5b9246416f84610a006f916af7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader using Guid(dd89cf5b9246416f84610a006f916af7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9a9ca5efd39017637fa23c5f3fd9d25') in 0.000758 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Prefabs/Tower/FreezJr.prefab
+  artifactKey: Guid(a14176f8aa1e5d146bbedb3185c462a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tower/FreezJr.prefab using Guid(a14176f8aa1e5d146bbedb3185c462a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b863e260d7c6b139dba683f8c13b2ef') in 0.013059 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/TextMesh Pro/Sprites/EmojiOne.png
+  artifactKey: Guid(dffef66376be4fa480fb02b19edbe903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Sprites/EmojiOne.png using Guid(dffef66376be4fa480fb02b19edbe903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de93a32521ae47c17b1a1b5cf87b8d24') in 0.005121 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Prefabs/Slash effects/Snow slash.prefab
+  artifactKey: Guid(ca6705a3f9070d14d819d179493bcfa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic effects pack/Prefabs/Slash effects/Snow slash.prefab using Guid(ca6705a3f9070d14d819d179493bcfa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8eae67aed6c06fd1eda47a48019453ac') in 0.006469 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Materials/Ground/New Terrain.asset
+  artifactKey: Guid(18e214934a043fa48b0c81408786d6b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Ground/New Terrain.asset using Guid(18e214934a043fa48b0c81408786d6b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '485bd3a3e8913214f1b0843f1205d49b') in 0.005974 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Prefabs/Castle
+  artifactKey: Guid(4d3c3f3a833524d1ba33d0d0e84c6ee5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Castle using Guid(4d3c3f3a833524d1ba33d0d0e84c6ee5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a705f3bb9ddf39a4e38a6823ddc1c412') in 0.000483 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Animations/AnimatorController/UnCommon.controller
+  artifactKey: Guid(356b5b09a6f30444eb21754e6d51205a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/AnimatorController/UnCommon.controller using Guid(356b5b09a6f30444eb21754e6d51205a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2e4c77428ded32fa6aa897da15c826a') in 0.004355 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Textures/Point1n.png
+  artifactKey: Guid(5050511111526384094dd94bcde2676a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic effects pack/Textures/Point1n.png using Guid(5050511111526384094dd94bcde2676a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '747ad0ff2b98c720770beb54b5d9ba7a') in 0.035952 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Prefabs/Character auras
+  artifactKey: Guid(f28b9550250755a49a2bc61e35278603) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic effects pack/Prefabs/Character auras using Guid(f28b9550250755a49a2bc61e35278603) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0a7a8d194dad840547b8629d33fcb97') in 0.000463 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000405 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Prefabs/Character auras/Star aura.prefab
+  artifactKey: Guid(354b6251e950209409c75ab984acf000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic effects pack/Prefabs/Character auras/Star aura.prefab using Guid(354b6251e950209409c75ab984acf000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9b440965bf2210df2cbd45dd63959a8') in 0.006661 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Scriptable Objects/Towers/FlameInHell.asset
+  artifactKey: Guid(3f15d1b1a2eda47ba800c74c02d15296) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scriptable Objects/Towers/FlameInHell.asset using Guid(3f15d1b1a2eda47ba800c74c02d15296) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '944f806e9e295a1114d2cf97d9c92c9d') in 0.001125 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000443 seconds.
+  path: Assets/WizardPolyArt/Textures/ForStandardShader/polyArtTex.png
+  artifactKey: Guid(367fb8c3e96202542b61122c3b392cc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WizardPolyArt/Textures/ForStandardShader/polyArtTex.png using Guid(367fb8c3e96202542b61122c3b392cc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c7ba69d70461ec50a2af0d2c4e6ff18') in 0.003743 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Bugs/FBX
+  artifactKey: Guid(2c93230623b20a74294d3d84e5f2616b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bugs/FBX using Guid(2c93230623b20a74294d3d84e5f2616b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6aaed04c8f9678b159f157600c566f58') in 0.000469 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Materials/Star.mat
+  artifactKey: Guid(f7fb42690dbaf0d408f1f55ea89b7be8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic effects pack/Materials/Star.mat using Guid(f7fb42690dbaf0d408f1f55ea89b7be8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a53b3313823cfc8b3359d01401b8289') in 0.004651 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Scripts/HUD/Menu/Shop/ShopCards.cs
+  artifactKey: Guid(f2ca594b5d8ea419c849752cbc2b24f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/HUD/Menu/Shop/ShopCards.cs using Guid(f2ca594b5d8ea419c849752cbc2b24f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '554699f9738ca2794adfb21f9716d589') in 0.000677 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Prefabs/Magic circles/Magic circle 2.prefab
+  artifactKey: Guid(48c5715f9603c3842a353516a8baefbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic effects pack/Prefabs/Magic circles/Magic circle 2.prefab using Guid(48c5715f9603c3842a353516a8baefbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ae12a304720500f6486ac94d06b6c53') in 0.007060 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Textures/Concrete slab_Normal.png
+  artifactKey: Guid(3a0dde7201a17f646865e8deeac56596) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic effects pack/Textures/Concrete slab_Normal.png using Guid(3a0dde7201a17f646865e8deeac56596) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4926e0e08792e2ed4a6391f17263178') in 0.006630 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Animations/AnimatorController/Common.controller
+  artifactKey: Guid(f165afcca98234bed9422ca86ab79b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/AnimatorController/Common.controller using Guid(f165afcca98234bed9422ca86ab79b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbadd55197c98689fb0c46401ffbe0dc') in 0.002366 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Materials/Snowflake.mat
+  artifactKey: Guid(110e8ef5ba5275f4c864c6b5190c7891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic effects pack/Materials/Snowflake.mat using Guid(110e8ef5ba5275f4c864c6b5190c7891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d84a5badc9ab3989cc40f5e8389ecdc') in 0.004635 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Animations
+  artifactKey: Guid(d0cbda044c0cc47139a524dad8c797b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations using Guid(d0cbda044c0cc47139a524dad8c797b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ce89c376f05ffe8efbc50d5a67a97f0') in 0.000465 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Hovl Studio/Resources/Settings/PP low.asset
+  artifactKey: Guid(70629691e8eede744b1c85c9ddcc4bc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Resources/Settings/PP low.asset using Guid(70629691e8eede744b1c85c9ddcc4bc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9222c4d0bcdbac931d213be2ddbac84') in 0.001029 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Prefabs/Slash effects/Stone slash.prefab
+  artifactKey: Guid(3407e378c048bb5438424b28c7740b48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic effects pack/Prefabs/Slash effects/Stone slash.prefab using Guid(3407e378c048bb5438424b28c7740b48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84f37e93a83406b6ec74fa92f1456e95') in 0.006657 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Bugs/Animators/Run.controller
+  artifactKey: Guid(e761ace889a78a946967af8d6890f71d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bugs/Animators/Run.controller using Guid(e761ace889a78a946967af8d6890f71d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7609811de068dd9b0e488f140f93bf06') in 0.001644 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Models
+  artifactKey: Guid(ad4081446914afa4e94efff5e5b27056) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic effects pack/Models using Guid(ad4081446914afa4e94efff5e5b27056) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '381689102c125d03f1883ccfc4a8e4b0') in 0.000415 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Demo scene/Readme.txt
+  artifactKey: Guid(2f20ef09debf8784c9226434f4bc541d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic effects pack/Demo scene/Readme.txt using Guid(2f20ef09debf8784c9226434f4bc541d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af978462f2a6c802d3c2ab117893dde9') in 0.000758 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Demo scene/Lightmap-0_comp_light.exr
+  artifactKey: Guid(9960b70afbb00c1468c54c31462b736a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic effects pack/Demo scene/Lightmap-0_comp_light.exr using Guid(9960b70afbb00c1468c54c31462b736a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e19d8e103d3aa78fc5e7df8ceb9ed0b9') in 0.056035 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Prefabs/Tower/LegendArrow.prefab
+  artifactKey: Guid(07abed210febd3a4198383d5e176d6af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tower/LegendArrow.prefab using Guid(07abed210febd3a4198383d5e176d6af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d1d78d7ae95d222c203e46cd461b3a0') in 0.012987 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Bugs/Textures
+  artifactKey: Guid(2c82c0fe1efcd0d43a1c7700787429d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bugs/Textures using Guid(2c82c0fe1efcd0d43a1c7700787429d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfc59c2c4fb1ce34c61e4e6b0ec15cc8') in 0.000649 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Scripts/Tower/MainGameTowers.cs
+  artifactKey: Guid(b510d6c81fef0404b8cfc4d26f1a85c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Tower/MainGameTowers.cs using Guid(b510d6c81fef0404b8cfc4d26f1a85c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '578a5084528177c22f9be7aa14d262f6') in 0.000625 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/WizardPolyArt/Mesh/Staff01PolyArt.fbx
+  artifactKey: Guid(199d5221dad59a74aa0d8d47e83e6e03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WizardPolyArt/Mesh/Staff01PolyArt.fbx using Guid(199d5221dad59a74aa0d8d47e83e6e03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b087a5bee5ee727add9a7356d169b93e') in 0.006851 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Animations/PolyArtWizardMesh@Wave Hip Hop Dance.fbx
+  artifactKey: Guid(f8c7c86c1eec44a669fd241700feffc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/PolyArtWizardMesh@Wave Hip Hop Dance.fbx using Guid(f8c7c86c1eec44a669fd241700feffc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a065afd5a7b08c1c4487002b25c0ba6a') in 0.007295 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Scripts/Interface
+  artifactKey: Guid(b21edec80b70241ef9fa6072d14f3dcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Interface using Guid(b21edec80b70241ef9fa6072d14f3dcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edc82aef3225f0a865544f9689ac62ee') in 0.000463 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Scripts/Tower/BurstTowerBehaviour.cs
+  artifactKey: Guid(dbd645693a0b484da965c830deaf1cff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Tower/BurstTowerBehaviour.cs using Guid(dbd645693a0b484da965c830deaf1cff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ae0a41fea4f877e84ccf12a9e7b6b27') in 0.000610 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Textures/Snowflake.png
+  artifactKey: Guid(0e1a6a9f47773b7478bea4aee1a1b64e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic effects pack/Textures/Snowflake.png using Guid(0e1a6a9f47773b7478bea4aee1a1b64e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '841e6c43ebca30af7f4390b5757aae9f') in 0.004117 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Materials/Stone.mat
+  artifactKey: Guid(5e01cbbef75a454468e5eb490ac64181) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic effects pack/Materials/Stone.mat using Guid(5e01cbbef75a454468e5eb490ac64181) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b570b04ff31841afa52dfacb91f2a51') in 0.004730 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Materials/Tower/Legend.mat
+  artifactKey: Guid(c63ca0efb9af09344b03498f4d5b85ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Tower/Legend.mat using Guid(c63ca0efb9af09344b03498f4d5b85ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8efc189fa61626157fd66de84117f41f') in 0.005276 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Animations/AnimatorController/Rear.controller
+  artifactKey: Guid(3277e1b21581e4fbba99791429c03f71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/AnimatorController/Rear.controller using Guid(3277e1b21581e4fbba99791429c03f71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ed5f099432019b837c1720b7aca91a2') in 0.003230 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Materials/Tower/Bullet.mat
+  artifactKey: Guid(ed48e6572b0f0584a85429073cf72970) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Tower/Bullet.mat using Guid(ed48e6572b0f0584a85429073cf72970) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae3c49b2400eb009434bc2e57b23af84') in 0.005332 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader
+  artifactKey: Guid(1e3b057af24249748ff873be7fafee47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader using Guid(1e3b057af24249748ff873be7fafee47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b61ff705cc2b91782b1a4a76c5ed8493') in 0.000889 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/WizardPolyArt/SRP/URP_PA.zip
+  artifactKey: Guid(8e8e20a9800450841ae366e270ac798c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WizardPolyArt/SRP/URP_PA.zip using Guid(8e8e20a9800450841ae366e270ac798c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ff3536b21a875c8a5e20f6fad0dc526') in 0.047680 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Scripts/Enemy/StateMachine/EnemyBaseStateMachine.cs
+  artifactKey: Guid(fae74fe372bf02c469693d406640a3f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Enemy/StateMachine/EnemyBaseStateMachine.cs using Guid(fae74fe372bf02c469693d406640a3f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f74f5615ceb18bf1d66094c4d9f6a78') in 0.000693 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Scripts/HUD/UI/ButtonInteract.cs
+  artifactKey: Guid(bcbe4e89c0150402ca322576f24d1ddf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/HUD/UI/ButtonInteract.cs using Guid(bcbe4e89c0150402ca322576f24d1ddf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd99faabaec99befa7adaeccdf0c43ea7') in 0.000610 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Hovl Studio/Magic effects pack
+  artifactKey: Guid(ccaf0d0261bfcfe4f874cb02d8931eb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic effects pack using Guid(ccaf0d0261bfcfe4f874cb02d8931eb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9e48a4f2661ea2b8189c5cdf383e52d') in 0.000430 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Demo scene
+  artifactKey: Guid(44e83fc5854cef9499372056eb3818f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic effects pack/Demo scene using Guid(44e83fc5854cef9499372056eb3818f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '169ac83d0e51f2d36b0928284b996ba9') in 0.000380 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Prefabs/Magic circles/Magic circle.prefab
+  artifactKey: Guid(a2a060732547fe64581bb0cb3c2bdf1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic effects pack/Prefabs/Magic circles/Magic circle.prefab using Guid(a2a060732547fe64581bb0cb3c2bdf1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4878e726ace46eb322a5ce87844df1ff') in 0.007387 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt
+  artifactKey: Guid(d82c1b31c7e74239bff1220585707d2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt using Guid(d82c1b31c7e74239bff1220585707d2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b95b4c2a9b67a1b3b08a79aab403f964') in 0.000994 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Animations/PolyArtWizardMesh@Macarena Dance.fbx
+  artifactKey: Guid(8b5d6721dd9744ec899f37b2e0a50217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/PolyArtWizardMesh@Macarena Dance.fbx using Guid(8b5d6721dd9744ec899f37b2e0a50217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8cd179b1eb41aee10b05d5646d5ac20') in 0.004135 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Bugs/Materials/Polygonal Metalon Red.mat
+  artifactKey: Guid(bcaad48fae9d78948944fe183b6e39fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bugs/Materials/Polygonal Metalon Red.mat using Guid(bcaad48fae9d78948944fe183b6e39fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c347e5a1322e032015cb6f76fa204907') in 0.005912 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader
+  artifactKey: Guid(a02a7d8c237544f1962732b55a9aebf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader using Guid(a02a7d8c237544f1962732b55a9aebf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd69306130e7a5e3f470ca8fd3baa50b2') in 0.000896 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Bugs/Animators/Demo.controller
+  artifactKey: Guid(a0d2ba5d068c86a4c82d93f2ec431a84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bugs/Animators/Demo.controller using Guid(a0d2ba5d068c86a4c82d93f2ec431a84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bf6ecbbc5f8b0a4130f0dd48249e6d7') in 0.003285 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Prefabs/Portals/Portal yellow.prefab
+  artifactKey: Guid(5ad33d58a66ab154a89c9e88255601e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic effects pack/Prefabs/Portals/Portal yellow.prefab using Guid(5ad33d58a66ab154a89c9e88255601e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e8fab6750fa981b3c8016502e61c518') in 0.006733 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Scripts/Tower/ShopTowerContainer.cs
+  artifactKey: Guid(ca6c269b7f1804b728c9eca22a52055b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Tower/ShopTowerContainer.cs using Guid(ca6c269b7f1804b728c9eca22a52055b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a87c682f579aecca660055a4e2dd6ae') in 0.000668 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat
+  artifactKey: Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat using Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e8f67143d39290bf208a01b322872e3') in 0.023516 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/WizardPolyArt/Textures/ForPBRMaskTintShader/PolyArtMask.png
+  artifactKey: Guid(c47c9719298650c47a7f2042127ff9d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WizardPolyArt/Textures/ForPBRMaskTintShader/PolyArtMask.png using Guid(c47c9719298650c47a7f2042127ff9d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0136d0c3d3fda2930b0ee3e5ee23a34') in 0.004209 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Bugs/Prefabs/Polygonal Metalon Green.prefab
+  artifactKey: Guid(7f931d4b5c97d194d8726ddf5acdd440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bugs/Prefabs/Polygonal Metalon Green.prefab using Guid(7f931d4b5c97d194d8726ddf5acdd440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '244e0e20bd74121d6c0cd729b9d594c9') in 0.036649 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader
+  artifactKey: Guid(14eb328de4b8eb245bb7cea29e4ac00b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader using Guid(14eb328de4b8eb245bb7cea29e4ac00b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8028b456005f5b9550e4392263ee47f2') in 0.001081 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/WizardPolyArt/Prefabs/PolyArtWizardStandardMat.prefab
+  artifactKey: Guid(ccd8c3b89aa02e943a08ab9238a8a70c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WizardPolyArt/Prefabs/PolyArtWizardStandardMat.prefab using Guid(ccd8c3b89aa02e943a08ab9238a8a70c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38aae897eecb4222e744fa79a16919c7') in 0.009130 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF.shader
+  artifactKey: Guid(68e6db2ebdc24f95958faec2be5558d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF.shader using Guid(68e6db2ebdc24f95958faec2be5558d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4934c154a388505cc3e434260b64d92') in 0.000910 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Bugs/Demo Assets/Polygonal Creatures.asset
+  artifactKey: Guid(a30dce614a64400498cb1551d48bacd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bugs/Demo Assets/Polygonal Creatures.asset using Guid(a30dce614a64400498cb1551d48bacd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd209949b41adef8c8b632b50c8747a7') in 0.001000 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Prefabs/AoE effects/Snow AOE.prefab
+  artifactKey: Guid(05ce920d629922a4eb4795ef7494ce5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic effects pack/Prefabs/AoE effects/Snow AOE.prefab using Guid(05ce920d629922a4eb4795ef7494ce5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf0b5abf78ade864889c4c43d85141d6') in 0.007901 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Scripts/HUD/Menu/Shop/SelectedCards.cs
+  artifactKey: Guid(73c0464b184bc41d0b7dabea7777335b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/HUD/Menu/Shop/SelectedCards.cs using Guid(73c0464b184bc41d0b7dabea7777335b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6d332380563ed4b4efc4dde87d9e72b') in 0.000736 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Materials/Tower
+  artifactKey: Guid(e55351b8e45554b4fac4006f3a50a674) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Tower using Guid(e55351b8e45554b4fac4006f3a50a674) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f2e42f48f221be878e581e743704db3') in 0.000428 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Scripts/HUD/Menu/Shop
+  artifactKey: Guid(2e6f501d302a64b94834fe6a4a733ef3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/HUD/Menu/Shop using Guid(2e6f501d302a64b94834fe6a4a733ef3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efe5fbaab105a3c8a5a9b6e4c1fea9d8') in 0.000379 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Materials/Circle.mat
+  artifactKey: Guid(4bab0f95134663b4c9c3dd73939c0ff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic effects pack/Materials/Circle.mat using Guid(4bab0f95134663b4c9c3dd73939c0ff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d0266b9d21825a49db5b1058d2aec26') in 0.004757 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Sprites/Off.png
+  artifactKey: Guid(f60fa263c869c2d4e81269cb126478d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Off.png using Guid(f60fa263c869c2d4e81269cb126478d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86203deae0a6e726cb27a32ed89a6873') in 0.007803 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Demo scene/Magic effects demo.unity
+  artifactKey: Guid(3eebb27d911d4bd419f5425e850ee039) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic effects pack/Demo scene/Magic effects demo.unity using Guid(3eebb27d911d4bd419f5425e850ee039) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4f09a27fca6ed9ba64437179c5fef19') in 0.000509 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Materials/Smoke26.mat
+  artifactKey: Guid(616a777eb757ff14c82a79feeb35d9b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic effects pack/Materials/Smoke26.mat using Guid(616a777eb757ff14c82a79feeb35d9b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f85c232bf493e19028c8127db1e5744d') in 0.013961 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Scripts/Tower/DetectionWithRay.cs
+  artifactKey: Guid(7da6430a86bd46e9b31c14ec859676fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Tower/DetectionWithRay.cs using Guid(7da6430a86bd46e9b31c14ec859676fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e39b4b97f8d38f262dbec9f2c1cb076f') in 0.000675 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/WizardPolyArt/Prefabs
+  artifactKey: Guid(6db0bb99fff60fb48b231df984fad89e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WizardPolyArt/Prefabs using Guid(6db0bb99fff60fb48b231df984fad89e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6c837abf289a6b255c907e7bd9b85ea') in 0.000387 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Prefabs/Character auras/Healing.prefab
+  artifactKey: Guid(1245b8d2997d5b34fb1637be70a7eb05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic effects pack/Prefabs/Character auras/Healing.prefab using Guid(1245b8d2997d5b34fb1637be70a7eb05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1eac090a8ffe6ba21cbd5ab35424047e') in 0.006337 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Textures/Heart.png
+  artifactKey: Guid(47a48c9cf6895484983862ae79cb7102) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic effects pack/Textures/Heart.png using Guid(47a48c9cf6895484983862ae79cb7102) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51f0808a0ebdfe04c0c5fdd92403bcd7') in 0.004487 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Scripts/HUD/HUDShop/UpgradeButtonManager.cs
+  artifactKey: Guid(0b00de96f6e945df85ac067f0946bd3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/HUD/HUDShop/UpgradeButtonManager.cs using Guid(0b00de96f6e945df85ac067f0946bd3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '842263b293e153f59aac88f206da15b3') in 0.000803 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Materials/Tower/Hunter.mat
+  artifactKey: Guid(13cf1bb4cd9bd304b9c6d2216a5ce686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Tower/Hunter.mat using Guid(13cf1bb4cd9bd304b9c6d2216a5ce686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85d91b18bce54e46bb94a88182e51d78') in 0.005160 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader
+  artifactKey: Guid(fe393ace9b354375a9cb14cdbbc28be4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader using Guid(fe393ace9b354375a9cb14cdbbc28be4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ac40a0a096669415ec0a0611525f796') in 0.000913 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Scripts/LoadScenes.cs
+  artifactKey: Guid(23662987ae5f144eebb1fc64b47ddead) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/LoadScenes.cs using Guid(23662987ae5f144eebb1fc64b47ddead) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6bcd8677369fe86035de3c9071d5756') in 0.000589 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Scripts/Enemy/Particle/SpawnPortal.cs
+  artifactKey: Guid(77d611a64b61645fe985ba7f9f91f68f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Enemy/Particle/SpawnPortal.cs using Guid(77d611a64b61645fe985ba7f9f91f68f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4e307b0fec2ae48a400afc97d904a07') in 0.000585 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Bugs/Prefabs/Polygonal Metalon Purple.prefab
+  artifactKey: Guid(e9a03d46b76afe246a9ffd58d255bb65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bugs/Prefabs/Polygonal Metalon Purple.prefab using Guid(e9a03d46b76afe246a9ffd58d255bb65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73f371eaeb7849896f83d2554da0e629') in 0.008537 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/WizardPolyArt/Scene
+  artifactKey: Guid(12a57bdbc736ce1449ab269138e47291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WizardPolyArt/Scene using Guid(12a57bdbc736ce1449ab269138e47291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eaf7b7c1a70b27544eef28b3bf700809') in 0.000546 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/WizardPolyArt/Shader
+  artifactKey: Guid(f50ccb3eaf42d0147b42dcbea4c11033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WizardPolyArt/Shader using Guid(f50ccb3eaf42d0147b42dcbea4c11033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '362b0c0a42c4ea88d9836534896f9834') in 0.000397 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Prefabs/Enemy/EnemyContainer.prefab
+  artifactKey: Guid(d60d0a4578d28470baef0b71db6bfb2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enemy/EnemyContainer.prefab using Guid(d60d0a4578d28470baef0b71db6bfb2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7295291e65cb28e5a32a6203998e475') in 0.001561 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Prefabs/Ui
+  artifactKey: Guid(460d3ca3dc0d241f4976c63ff85e4bc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Ui using Guid(460d3ca3dc0d241f4976c63ff85e4bc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5af5e44ed1d0adf5911180622816b7a5') in 0.000437 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Prefabs/Tower/BulletExplosion.prefab
+  artifactKey: Guid(c648b47868e92f641b2c610479087cb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tower/BulletExplosion.prefab using Guid(c648b47868e92f641b2c610479087cb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cabe69c3b3421cfb6c92d8e497309b5b') in 0.013423 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Animations/AnimatorController
+  artifactKey: Guid(604a0d01d913b4ffba6b8db45bf6a7c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/AnimatorController using Guid(604a0d01d913b4ffba6b8db45bf6a7c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a7da294995a94881098005add1d4670') in 0.000655 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader
+  artifactKey: Guid(128e987d567d4e2c824d754223b3f3b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader using Guid(128e987d567d4e2c824d754223b3f3b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87e2969599006ad07ceaffacf0fc38d0') in 0.000851 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader
+  artifactKey: Guid(c8d12adcee749c344b8117cf7c7eb912) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader using Guid(c8d12adcee749c344b8117cf7c7eb912) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '828bb957fca5589d42e844da2b24c162') in 0.000741 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/WizardPolyArt/SRP/HDRP_PA.zip
+  artifactKey: Guid(918b3b06e15e1f74aab160dfc26f9678) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WizardPolyArt/SRP/HDRP_PA.zip using Guid(918b3b06e15e1f74aab160dfc26f9678) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd75524795c001d0e77e8c76540c8c698') in 0.000781 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Prefabs/Castle/Castle.prefab
+  artifactKey: Guid(bc8fc62a6c2dbd64fb8f3db9cb774834) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Castle/Castle.prefab using Guid(bc8fc62a6c2dbd64fb8f3db9cb774834) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3873047f9168bba5a60f496ef70b323') in 0.032844 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Prefabs/Enemy
+  artifactKey: Guid(87ed8a48c05f942559e9f49f94c87c30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enemy using Guid(87ed8a48c05f942559e9f49f94c87c30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e04186ce87c98adc5bb0cda03377ea8c') in 0.000529 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Prefabs/Tower/FlameInHell.prefab
+  artifactKey: Guid(f7e735b854a86ec409774dd1f8e1da28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tower/FlameInHell.prefab using Guid(f7e735b854a86ec409774dd1f8e1da28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f96a35824edeb7b6c81a7f20ab015e7') in 0.014635 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/TextMesh Pro/Sprites/EmojiOne.json
+  artifactKey: Guid(8f05276190cf498a8153f6cbe761d4e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Sprites/EmojiOne.json using Guid(8f05276190cf498a8153f6cbe761d4e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '036dbd30c7d82b31d4c2f8acde9227e5') in 0.115061 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/WizardPolyArt/Materials/PolyArtMaskTint.mat
+  artifactKey: Guid(aa2697fc5c62ddc469c79075db26cab4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WizardPolyArt/Materials/PolyArtMaskTint.mat using Guid(aa2697fc5c62ddc469c79075db26cab4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a56a4309cd0786084bb29e70cf491ae8') in 0.005491 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Textures/Concrete slab_MetallicSmoothness.png
+  artifactKey: Guid(a685c8f461a651a46a2631ea3decafae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic effects pack/Textures/Concrete slab_MetallicSmoothness.png using Guid(a685c8f461a651a46a2631ea3decafae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa97890888f6619339b5fa8f9698b5aa') in 0.005850 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Scripts/Enemy/StateMachine
+  artifactKey: Guid(e06d8d640f18f4abe921a3f51703a559) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Enemy/StateMachine using Guid(e06d8d640f18f4abe921a3f51703a559) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36f76a3e0e8023c1c289aa32759c5dca') in 0.000536 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials
+  artifactKey: Guid(731f1baa9d144a9897cb1d341c2092b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials using Guid(731f1baa9d144a9897cb1d341c2092b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce9a9b08aeb39474bb51dafbf7edd7df') in 0.000446 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Scripts/Enemy/StateMachine/StateSwitcher.cs
+  artifactKey: Guid(69184e70f8ec462d99e623e4989ed023) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Enemy/StateMachine/StateSwitcher.cs using Guid(69184e70f8ec462d99e623e4989ed023) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0651430a5f7caf838660bd7d5302e91e') in 0.000599 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/WizardPolyArt/Prefabs/Staff01PolyArt.prefab
+  artifactKey: Guid(713f90f70ef14794bbdcabcb038f4ae7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WizardPolyArt/Prefabs/Staff01PolyArt.prefab using Guid(713f90f70ef14794bbdcabcb038f4ae7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fae23b5506e7652bf321574b67a197d') in 0.005070 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Scripts/HUD/HUDShop/SpawnButtonManager.cs
+  artifactKey: Guid(837dbb0c1b324669a747cc28aab842ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/HUD/HUDShop/SpawnButtonManager.cs using Guid(837dbb0c1b324669a747cc28aab842ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c7cdc5b1545619d534bcb08ece56d3d') in 0.000723 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/WizardPolyArt/Mesh/PolyArtWizardMesh.fbx
+  artifactKey: Guid(bed7a092d53e7c748bd65db98cebf9d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WizardPolyArt/Mesh/PolyArtWizardMesh.fbx using Guid(bed7a092d53e7c748bd65db98cebf9d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3db5ccd993e25be5b42985bd794ed360') in 0.012460 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Scripts/HUD/UI/VolumeButton.cs
+  artifactKey: Guid(7940c670c0104c548afb1e19e705b483) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/HUD/UI/VolumeButton.cs using Guid(7940c670c0104c548afb1e19e705b483) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a35537298a5e11c3ce0613c2b63bb0b') in 0.000687 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/WizardPolyArt/SRP
+  artifactKey: Guid(d78a80de02fae3e449542f72618ce43a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WizardPolyArt/SRP using Guid(d78a80de02fae3e449542f72618ce43a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4a636cd9b2b5f757171e14b7c1903da') in 0.000447 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Prefabs/Hits and explosions/Green hit.prefab
+  artifactKey: Guid(3138a83bedbd6ad4481ba0b061da2eb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic effects pack/Prefabs/Hits and explosions/Green hit.prefab using Guid(3138a83bedbd6ad4481ba0b061da2eb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72ee6a4e1ef54d41e0241f34e36a59b0') in 0.006561 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Demo scene/ReflectionProbe-1.exr
+  artifactKey: Guid(6cd5e7294f0f7be4aa89e131da9505b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic effects pack/Demo scene/ReflectionProbe-1.exr using Guid(6cd5e7294f0f7be4aa89e131da9505b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '305ce621c96b6e2eb2e522387455c405') in 0.007370 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Materials/VFXatlas.psd
+  artifactKey: Guid(670f1c056a06d7049b90d1fd1e480427) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic effects pack/Materials/VFXatlas.psd using Guid(670f1c056a06d7049b90d1fd1e480427) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '936d0b87557bae1d1cfc581052417ea2') in 0.007601 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Scripts/HUD/UI/WaveManager.cs
+  artifactKey: Guid(6676824fe237af741b8c3934e3a9bfaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/HUD/UI/WaveManager.cs using Guid(6676824fe237af741b8c3934e3a9bfaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6a48074f87db7940baf092f2294f791') in 0.000661 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Bugs/Demo Assets
+  artifactKey: Guid(1faa190315021254494cbb457dc847ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bugs/Demo Assets using Guid(1faa190315021254494cbb457dc847ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdce974559ec0bab93fb946f92f1059e') in 0.000392 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Scripts/Tower/CardController.cs
+  artifactKey: Guid(fc1d7e5f7c3f044a59f12a40c2266422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Tower/CardController.cs using Guid(fc1d7e5f7c3f044a59f12a40c2266422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65af3823be825d53ca9a9a6c1566be37') in 0.000591 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/WizardPolyArt/Shader/PolyArtMaskTint.shader
+  artifactKey: Guid(b3b027031f09c4b4c83228ddb863368b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WizardPolyArt/Shader/PolyArtMaskTint.shader using Guid(b3b027031f09c4b4c83228ddb863368b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba2d152a1f9b5fc031b5d1fb329b2f54') in 0.000791 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Prefabs/Portals
+  artifactKey: Guid(562e4f1f238cfc74e85b37873fe6bfe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic effects pack/Prefabs/Portals using Guid(562e4f1f238cfc74e85b37873fe6bfe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '374a84bac144ab48625ae96e264cb228') in 0.000466 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/WizardPolyArt/Mesh/Staff03PolyArt.fbx
+  artifactKey: Guid(4568399afa0fdc64bb50a337c6acb100) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WizardPolyArt/Mesh/Staff03PolyArt.fbx using Guid(4568399afa0fdc64bb50a337c6acb100) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e0dfe75f8f93f8c441e69fd6ffc3e04') in 0.007055 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Prefabs/Hits and explosions/Snow hit.prefab
+  artifactKey: Guid(0edef91621bb6b34384ccc9dbb98729c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic effects pack/Prefabs/Hits and explosions/Snow hit.prefab using Guid(0edef91621bb6b34384ccc9dbb98729c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e5431fd75110119a81e8d2d41e113e2') in 0.007294 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Prefabs/Tower/Main Game Towers.prefab
+  artifactKey: Guid(507c0a2e8f6c146d4a9c8d1072f2a7ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tower/Main Game Towers.prefab using Guid(507c0a2e8f6c146d4a9c8d1072f2a7ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9030d671fd49692c130c7eab6a83df60') in 0.001945 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Animations/PolyArtWizardMesh@Arms Hip Hop Dance.fbx
+  artifactKey: Guid(da216e4692e7d4bcfafd822f0f8d2fbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/PolyArtWizardMesh@Arms Hip Hop Dance.fbx using Guid(da216e4692e7d4bcfafd822f0f8d2fbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba880de72b2feed2e9c6e7928c6d29d5') in 0.005180 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Scripts/Enemy/StateMachine/SlowState.cs
+  artifactKey: Guid(53e32e21acbf456493a5883cc674c70a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Enemy/StateMachine/SlowState.cs using Guid(53e32e21acbf456493a5883cc674c70a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83f6f12c99a71b9a7f515dfc8c7c19ae') in 0.000635 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Materials
+  artifactKey: Guid(ee91f4bb20399d942800a544f860a483) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials using Guid(ee91f4bb20399d942800a544f860a483) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34acc8b950d60774d27ef0859932fa26') in 0.000428 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Scripts/Enemy/Controller/EnemyUi.cs
+  artifactKey: Guid(3b4b6026d9544446820643033265c9df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Enemy/Controller/EnemyUi.cs using Guid(3b4b6026d9544446820643033265c9df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e971a9e9dc04ba4438f6994e85e3c0bd') in 0.000610 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Scripts/Enemy/Controller/EnemyDamage.cs
+  artifactKey: Guid(bdb61c7fe5a7494db1f2c7779d560861) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Enemy/Controller/EnemyDamage.cs using Guid(bdb61c7fe5a7494db1f2c7779d560861) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c40fa5fb44b5ceb36c4222defbcf431e') in 0.000564 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Materials/Ground/Black.mat
+  artifactKey: Guid(9ff14b680c83ed542b919f106f60db8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Ground/Black.mat using Guid(9ff14b680c83ed542b919f106f60db8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd93430e4c53842105b962ca7629ae24a') in 0.004610 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Scripts/Enemy/Controller/EnemySpawner.cs
+  artifactKey: Guid(1a1ca030349e4f33a8dcc16e6378c6d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Enemy/Controller/EnemySpawner.cs using Guid(1a1ca030349e4f33a8dcc16e6378c6d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb497cd7eb3e12a01d21c2709c0f63cd') in 0.000637 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Prefabs/AoE effects/Meteors AOE.prefab
+  artifactKey: Guid(3355f6bfa6db8b24281b827de929694c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic effects pack/Prefabs/AoE effects/Meteors AOE.prefab using Guid(3355f6bfa6db8b24281b827de929694c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51d7dfb663d360d527dd4612a7d592cf') in 0.008602 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Bugs/Demo Assets/Base.FBX
+  artifactKey: Guid(d43fabc0c6249d84b8e67387e5f3a340) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bugs/Demo Assets/Base.FBX using Guid(d43fabc0c6249d84b8e67387e5f3a340) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd2de4afa2c5699b933cd179283cf673') in 0.007208 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Prefabs/Magic circles/Healing circle.prefab
+  artifactKey: Guid(12a56ee4630040c4eb17ae9707ed4cef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic effects pack/Prefabs/Magic circles/Healing circle.prefab using Guid(12a56ee4630040c4eb17ae9707ed4cef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32d2507d483db503d9ac3575c9b48dc7') in 0.008952 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Prefabs/Character auras/Buff.prefab
+  artifactKey: Guid(97c43495f80a3244fad1301dfafbe252) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic effects pack/Prefabs/Character auras/Buff.prefab using Guid(97c43495f80a3244fad1301dfafbe252) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d6c1dd85f698b9ff8fbbc4f44a0afed') in 0.007101 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader
+  artifactKey: Guid(85187c2149c549c5b33f0cdb02836b17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader using Guid(85187c2149c549c5b33f0cdb02836b17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '302b22a73d09ac0abaf371dd89a6ab13') in 0.000925 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Sound
+  artifactKey: Guid(c23152e02289ab64aa41d12f55fdaf92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sound using Guid(c23152e02289ab64aa41d12f55fdaf92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca57fa7bc046add9602714babb34498a') in 0.000450 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc
+  artifactKey: Guid(3997e2241185407d80309a82f9148466) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc using Guid(3997e2241185407d80309a82f9148466) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7506c69260bf7c1cdf33a8f62db534a1') in 0.000977 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Scripts/Enemy/Controller/EnemyHealthController.cs
+  artifactKey: Guid(1a248e0220784e7a8b3e5dd8db741862) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Enemy/Controller/EnemyHealthController.cs using Guid(1a248e0220784e7a8b3e5dd8db741862) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e8054089a3e8af9fd337203cd8c9916') in 0.000555 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Demo scene/LightingData.asset
+  artifactKey: Guid(faa4b86ef3c40464a90105bd7feb5ad9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic effects pack/Demo scene/LightingData.asset using Guid(faa4b86ef3c40464a90105bd7feb5ad9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Lighting data asset ‘LightingData’ is incompatible with the current Unity version because the scene it was baked for was not serialized. Please use Generate Lighting to rebuild the lighting data, or assign the target scene to the Lighting Data Asset in the inspector.
+ -> (artifact id: '479111961c1ad6159f393f3d669654fb') in 0.001649 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Scripts/Tower/SingleTargetShotTowerBehaviour.cs
+  artifactKey: Guid(a3bea07881284757bad9c85247b16abd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Tower/SingleTargetShotTowerBehaviour.cs using Guid(a3bea07881284757bad9c85247b16abd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17de866ddd13c163bdef1f86e6380bff') in 0.000603 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/WizardPolyArt/Textures/ForStandardShader
+  artifactKey: Guid(e6effd826a412b24b8e768858d8fafba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WizardPolyArt/Textures/ForStandardShader using Guid(e6effd826a412b24b8e768858d8fafba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f2f6c485432b5e5f1faf63eb8229ce2') in 0.000403 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Animations/PolyArtWizardMesh@Booty Hip Hop Dance.fbx
+  artifactKey: Guid(71311017b9b3b400199d678220f9bfb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/PolyArtWizardMesh@Booty Hip Hop Dance.fbx using Guid(71311017b9b3b400199d678220f9bfb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e46ce9db99d32ee108a1d4faef498632') in 0.003963 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Materials/Heart.mat
+  artifactKey: Guid(e97a79db1dd66ad4d8f70932abe94b73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic effects pack/Materials/Heart.mat using Guid(e97a79db1dd66ad4d8f70932abe94b73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62cd3e3d09e0630953ebbb572d5352fe') in 0.004646 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/TextMesh Pro/Documentation
+  artifactKey: Guid(8e7e8f5a82a3a134e91c54efd2274ea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Documentation using Guid(8e7e8f5a82a3a134e91c54efd2274ea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc497803c0650e980b81bcf651e18b86') in 0.000488 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMPro.cginc
+  artifactKey: Guid(407bc68d299748449bbf7f48ee690f8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Shaders/TMPro.cginc using Guid(407bc68d299748449bbf7f48ee690f8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9166bc1abaeb281fc6783cc3fe76c458') in 0.000916 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Scripts/Interface/IHitatable.cs
+  artifactKey: Guid(dd395c121e6aaad4bb0df680e773ffd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Interface/IHitatable.cs using Guid(dd395c121e6aaad4bb0df680e773ffd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bb97accb15ee6d38726334d9b341937') in 0.000594 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Scripts/HUD/Menu/Shop/ShopController.cs
+  artifactKey: Guid(2aba1cda5ede4613b81c10d86d1fdcbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/HUD/Menu/Shop/ShopController.cs using Guid(2aba1cda5ede4613b81c10d86d1fdcbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e6e567886242807d1fd1aeb58d58127') in 0.000563 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Textures
+  artifactKey: Guid(48fbaf4e0d478de498dc961be7083466) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic effects pack/Textures using Guid(48fbaf4e0d478de498dc961be7083466) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed0a84edeb941d71ad6f1786d3586f49') in 0.000390 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Materials/Slash.mat
+  artifactKey: Guid(8b3cc142b0783eb40be02cde5b31ca6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic effects pack/Materials/Slash.mat using Guid(8b3cc142b0783eb40be02cde5b31ca6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb03f8c2176f926f1cf3ff14c9c594a8') in 0.004679 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt
+  artifactKey: Guid(6e59c59b81ab47f9b6ec5781fa725d2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt using Guid(6e59c59b81ab47f9b6ec5781fa725d2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46fed0587373dfa6cf508e153a5cbb71') in 0.000904 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/TextMesh Pro/Resources/Style Sheets
+  artifactKey: Guid(4aecb92fff08436c8303b10eab8da368) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Style Sheets using Guid(4aecb92fff08436c8303b10eab8da368) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe342ddaeddc525a77e6f203ceeefc6a') in 0.000398 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Materials/DistortionPoint.mat
+  artifactKey: Guid(fe8d615cbaec71545b42f9163243b02d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic effects pack/Materials/DistortionPoint.mat using Guid(fe8d615cbaec71545b42f9163243b02d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e49d51396d14a067a6adba45ac184fb') in 0.015308 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Prefabs/Hits and explosions/Electro hit.prefab
+  artifactKey: Guid(a164e676dbbd6e54587237e619372c98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic effects pack/Prefabs/Hits and explosions/Electro hit.prefab using Guid(a164e676dbbd6e54587237e619372c98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81cb3c80e435e9209eecaf00b182c2dd') in 0.006194 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Textures/Concrete slab.png
+  artifactKey: Guid(1b13dc101cf2ac7418019fd776161658) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic effects pack/Textures/Concrete slab.png using Guid(1b13dc101cf2ac7418019fd776161658) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c352b28d09f0b90bcbbb49eb8af76fc') in 0.005831 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Prefabs/Magic circles
+  artifactKey: Guid(58c695d9e25e06a47919eb09f93c4b0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic effects pack/Prefabs/Magic circles using Guid(58c695d9e25e06a47919eb09f93c4b0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '604486445577fe6416af46a457cd536c') in 0.000521 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Scriptable Objects/Towers/LegendArrow.asset
+  artifactKey: Guid(c3e437760c2c642d997bbfa2354ce3f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scriptable Objects/Towers/LegendArrow.asset using Guid(c3e437760c2c642d997bbfa2354ce3f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0904b9c834295cdf84e7acadcd3fb73') in 0.001003 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Textures/Star.png
+  artifactKey: Guid(5cc658114b5abae49bce56d6c4ae3105) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic effects pack/Textures/Star.png using Guid(5cc658114b5abae49bce56d6c4ae3105) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad5143c5e72a77d2df303039f765c4ee') in 0.003993 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000430 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Materials/Flare.mat
+  artifactKey: Guid(818e127314f46c844a3b31d893dcfe6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic effects pack/Materials/Flare.mat using Guid(818e127314f46c844a3b31d893dcfe6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58effd283886d4c0f99afbddf44d74fc') in 0.004723 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Scripts/Enemy/StateMachine/CurrentStateSwitcher.cs
+  artifactKey: Guid(8c9da640b669416ab4e42bcab8b639f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Enemy/StateMachine/CurrentStateSwitcher.cs using Guid(8c9da640b669416ab4e42bcab8b639f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '322ba695a3938fcbacb2f0de69e110a7') in 0.000700 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Materials/Mask1.mat
+  artifactKey: Guid(96d60590d2a3f0143a9a84d4568d9de8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic effects pack/Materials/Mask1.mat using Guid(96d60590d2a3f0143a9a84d4568d9de8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e438a558fa9d92a682da97c80f28409') in 0.005104 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Sprites
+  artifactKey: Guid(3b738acd579087445b508a82f5f65b69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites using Guid(3b738acd579087445b508a82f5f65b69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e278cf07f42fa134865306199c733db') in 0.000464 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc
+  artifactKey: Guid(c334973cef89a9840b0b0c507e0377ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc using Guid(c334973cef89a9840b0b0c507e0377ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89ec19a9bb5cbf8bdad0e1633e175a9e') in 0.000883 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader
+  artifactKey: Guid(bc1ede39bf3643ee8e493720e4259791) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader using Guid(bc1ede39bf3643ee8e493720e4259791) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0f99a6a71b6429f3fe9e025e8e69714') in 0.000790 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
+  artifactKey: Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset using Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '814e4bbdd5bc287335e824cb558ce84c') in 0.006955 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Prefabs/Tower/NeckBone.prefab
+  artifactKey: Guid(49d9527bb86bb7d48aa0c812553c2335) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tower/NeckBone.prefab using Guid(49d9527bb86bb7d48aa0c812553c2335) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0aac703abaee7f23e17ba5d6c415f070') in 0.013110 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Materials/Point.mat
+  artifactKey: Guid(e546d2d7171981b468cf29388d902e99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic effects pack/Materials/Point.mat using Guid(e546d2d7171981b468cf29388d902e99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0371272e5c202bf7b705b1cffb3b205') in 0.004873 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Scripts/Enemy/StateMachine/FastState.cs
+  artifactKey: Guid(542b8f5a45364abcb72a486d6b912e93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Enemy/StateMachine/FastState.cs using Guid(542b8f5a45364abcb72a486d6b912e93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5c501d413355f369d673ad995b0cbec') in 0.000644 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Materials/Tower/Rear.mat
+  artifactKey: Guid(94fc7cb1ea81f495691ae872f6d0ec74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Tower/Rear.mat using Guid(94fc7cb1ea81f495691ae872f6d0ec74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3448902940293a795fcd35b808bd0c21') in 0.005034 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Materials/Arrow1.mat
+  artifactKey: Guid(00b2a55319476cf40b84578eb2f8c2df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic effects pack/Materials/Arrow1.mat using Guid(00b2a55319476cf40b84578eb2f8c2df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02916cbf3158003352d15d48141879fe') in 0.004726 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader
+  artifactKey: Guid(f7ada0af4f174f0694ca6a487b8f543d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader using Guid(f7ada0af4f174f0694ca6a487b8f543d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34ec913c0602c7046ae5813c067bc290') in 0.001002 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Animations/AnimatorController/Epic.controller
+  artifactKey: Guid(175f98921e70e4eac8affac36d81db85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/AnimatorController/Epic.controller using Guid(175f98921e70e4eac8affac36d81db85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a67e405a09de3fca21ed8393083319a5') in 0.003413 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Prefabs/Hits and explosions/Holy hit.prefab
+  artifactKey: Guid(e190bf97c041e58448af6b043116cba0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic effects pack/Prefabs/Hits and explosions/Holy hit.prefab using Guid(e190bf97c041e58448af6b043116cba0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8163891055ceafaaff39c3ce92558eb5') in 0.007239 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Bugs/Animators
+  artifactKey: Guid(00320358ca55c7a41b49ab295502e017) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bugs/Animators using Guid(00320358ca55c7a41b49ab295502e017) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fe8d4134e6b76d8920b571169cc1c52') in 0.000543 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Bugs/FBX/Polygonal Metalon@Run Forward In Place.FBX
+  artifactKey: Guid(5c58933387b06c046a5f6eb866055790) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bugs/FBX/Polygonal Metalon@Run Forward In Place.FBX using Guid(5c58933387b06c046a5f6eb866055790) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '289eab16291729f060006344db68e9db') in 0.018288 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Scripts/SceneController.cs
+  artifactKey: Guid(c89861fa5c174915a7870c67ebf0ab30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/SceneController.cs using Guid(c89861fa5c174915a7870c67ebf0ab30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29c7800399dc61ba032c313e4e82f895') in 0.000729 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Prefabs/Hits and explosions/Stones hit.prefab
+  artifactKey: Guid(9b21333b068a5084ba09535839bee3c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic effects pack/Prefabs/Hits and explosions/Stones hit.prefab using Guid(9b21333b068a5084ba09535839bee3c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7615663ce8ab563a7a81bb9c1954b93b') in 0.006631 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Scriptable Objects/Towers/NorthHunter.asset
+  artifactKey: Guid(0d3447f3bf5c444dba953cb0634ea422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scriptable Objects/Towers/NorthHunter.asset using Guid(0d3447f3bf5c444dba953cb0634ea422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6940c5b85f6bc0b75dcc5f051725536c') in 0.001074 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/WizardPolyArt/Mesh/Stage.fbx
+  artifactKey: Guid(2c3dec735ce36e3498c2379c6673b473) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WizardPolyArt/Mesh/Stage.fbx using Guid(2c3dec735ce36e3498c2379c6673b473) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd579e743cfadca8932c727b4b9d05bb8') in 0.006870 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Bugs/Prefabs/Polygonal Metalon Red.prefab
+  artifactKey: Guid(f88c6ad57910d8648807bcf0c131f49d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bugs/Prefabs/Polygonal Metalon Red.prefab using Guid(f88c6ad57910d8648807bcf0c131f49d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43f925ec5442a09318304019c47e2178') in 0.008621 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Materials/Trail67.mat
+  artifactKey: Guid(228fc1317f61ac4408d84a68ea9822d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic effects pack/Materials/Trail67.mat using Guid(228fc1317f61ac4408d84a68ea9822d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55789fd4422e5ffd375c8c633dec5f36') in 0.004877 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Scriptable Objects/Towers/HeartMonk.asset
+  artifactKey: Guid(f44476d8d1b434dd99615898073a8a79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scriptable Objects/Towers/HeartMonk.asset using Guid(f44476d8d1b434dd99615898073a8a79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd106e612e6e92f66c1d21709b6c5dcf4') in 0.001175 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Scripts/Enemy/Controller/EnemyMovement.cs
+  artifactKey: Guid(10d0b1ace9e44652963314b6c76cf288) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Enemy/Controller/EnemyMovement.cs using Guid(10d0b1ace9e44652963314b6c76cf288) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b73c42fc31324adeb7309f13d5e030d6') in 0.000687 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Scripts/HUD/UI
+  artifactKey: Guid(8e35cf44999914d329ac33f223864b58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/HUD/UI using Guid(8e35cf44999914d329ac33f223864b58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a4f1ea730432ebeeda0a31d5526253c') in 0.000508 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Textures/MagicCircle2.png
+  artifactKey: Guid(5a6bd793e147ac64e98bf339553fd728) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic effects pack/Textures/MagicCircle2.png using Guid(5a6bd793e147ac64e98bf339553fd728) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c791d946bdb0dbe8c94d8a1d6200a92b') in 0.005517 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Materials/Electro.mat
+  artifactKey: Guid(410fa9a27b8dd1f4989dd201babd7d76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic effects pack/Materials/Electro.mat using Guid(410fa9a27b8dd1f4989dd201babd7d76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5be799690b4f3a0dd44f403bbc4ceb8') in 0.004706 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/WizardPolyArt/Mesh
+  artifactKey: Guid(e7f255dd32b819c4c85b13b3ff796faa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WizardPolyArt/Mesh using Guid(e7f255dd32b819c4c85b13b3ff796faa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '625777463edbb41f9cebef838ddf6c92') in 0.000486 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/WizardPolyArt/Materials
+  artifactKey: Guid(dad597d92b882e3488a73ab36ab2d495) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WizardPolyArt/Materials using Guid(dad597d92b882e3488a73ab36ab2d495) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d94c1dec5e0ff54ff61213e5df60fc3') in 0.000404 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Animations/PolyArtWizardMesh@Hip Hop Dancing-2.fbx
+  artifactKey: Guid(6a16085cbd785428ea03d2e1771297bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/PolyArtWizardMesh@Hip Hop Dancing-2.fbx using Guid(6a16085cbd785428ea03d2e1771297bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71153f6a45c58814a30b8752de7de0a0') in 0.005044 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Prefabs/Slash effects
+  artifactKey: Guid(fafa6ed23af356445b9387cba7732fe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic effects pack/Prefabs/Slash effects using Guid(fafa6ed23af356445b9387cba7732fe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcd41bd82c33cc3848bc58f5a65901a5') in 0.000456 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Textures/Concrete slab_Height.png
+  artifactKey: Guid(db368c1c85b12fe48aba6cc9bcd41f43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic effects pack/Textures/Concrete slab_Height.png using Guid(db368c1c85b12fe48aba6cc9bcd41f43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8666863cbf7385f7ab90af0e75441c26') in 0.005408 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Bugs/Materials/Polygonal Metalon Purple.mat
+  artifactKey: Guid(343efc4e4daa6884fb114514185426c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bugs/Materials/Polygonal Metalon Purple.mat using Guid(343efc4e4daa6884fb114514185426c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c2a85f2b667e2001f4b551792119f23') in 0.006048 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Scripts/Enemy/Controller/EnemyCloneController.cs
+  artifactKey: Guid(cd7135cf9f7aeb84fbc9a2b57b558139) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Enemy/Controller/EnemyCloneController.cs using Guid(cd7135cf9f7aeb84fbc9a2b57b558139) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a87f954112bb933aa8973b646fa7ca3') in 0.000820 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Materials/MagicCircle.mat
+  artifactKey: Guid(ddac23d301cbfca45bcbe217c05f0141) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic effects pack/Materials/MagicCircle.mat using Guid(ddac23d301cbfca45bcbe217c05f0141) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dc2a13c1a8b51b80473e35e7646703a') in 0.005709 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/TextMesh Pro/Resources/TMP Settings.asset
+  artifactKey: Guid(3f5b5dff67a942289a9defa416b206f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/TMP Settings.asset using Guid(3f5b5dff67a942289a9defa416b206f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcad6d9c302618da6a4f96e2a6d65d7e') in 0.022624 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Materials/Tower/Common.mat
+  artifactKey: Guid(e9490b83c31e7452e8bb73ed1fcb3113) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Tower/Common.mat using Guid(e9490b83c31e7452e8bb73ed1fcb3113) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cafc732fec7e8eeb9f3d4e7f6ead071') in 0.005117 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Prefabs/Hits and explosions/Star hit.prefab
+  artifactKey: Guid(98c4704d0fd7211449bcf5c451095a60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic effects pack/Prefabs/Hits and explosions/Star hit.prefab using Guid(98c4704d0fd7211449bcf5c451095a60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a68abc784fa07e1f49603f41b923f6c') in 0.006691 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Bugs/READ ME
+  artifactKey: Guid(9d17a0810146d824aaca89233dd343e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bugs/READ ME using Guid(9d17a0810146d824aaca89233dd343e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4da7cda9f8d355aee0146df7845d7a6') in 0.000668 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Scriptable Objects/Towers/FreezJr.asset
+  artifactKey: Guid(90aa23be0bd374e7088143511d0de307) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scriptable Objects/Towers/FreezJr.asset using Guid(90aa23be0bd374e7088143511d0de307) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84b0dfa8677ce442ca58da2e4604c992') in 0.001009 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Bugs/Materials
+  artifactKey: Guid(a853662e3f0995d45b91e7568d36158c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bugs/Materials using Guid(a853662e3f0995d45b91e7568d36158c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a30ec33de7557bda09d0dde9e91ad55d') in 0.000359 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Scenes/GameSceneNavMesh
+  artifactKey: Guid(340858267cf8eef479b3947b58f5d895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/GameSceneNavMesh using Guid(340858267cf8eef479b3947b58f5d895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73a9c41e25767b8ac5e726f87df5f3b5') in 0.000393 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Scripts/HUD/Menu/CardsListForGame.cs
+  artifactKey: Guid(1b4930e788bd54655b467510ffa50840) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/HUD/Menu/CardsListForGame.cs using Guid(1b4930e788bd54655b467510ffa50840) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6691c6af1c04ae46b42421e81a6f4b9') in 0.000550 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Scripts/HUD/Menu/CardIdController.cs
+  artifactKey: Guid(ea2f189238f945b99bf61df9abdd2b2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/HUD/Menu/CardIdController.cs using Guid(ea2f189238f945b99bf61df9abdd2b2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9984a40ac1ec3e4f7a6bd23d8fa950b9') in 0.000542 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Scenes/GameSceneNavMesh/NavMesh.asset
+  artifactKey: Guid(03216f42fd3da7f458240421703e51c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/GameSceneNavMesh/NavMesh.asset using Guid(03216f42fd3da7f458240421703e51c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19c0666eb985ecdf3e3f3f80f13e9e50') in 0.001277 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Prefabs/Hits and explosions/Explosion.prefab
+  artifactKey: Guid(8eb503696b886e04faff8fc0f480d473) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic effects pack/Prefabs/Hits and explosions/Explosion.prefab using Guid(8eb503696b886e04faff8fc0f480d473) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa15e986d394a66d07dd8319d7331cc1') in 0.006817 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Scriptable Objects/Towers/CloudLight.asset
+  artifactKey: Guid(2084e0a9443fb44dea3fc4e11b35585c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scriptable Objects/Towers/CloudLight.asset using Guid(2084e0a9443fb44dea3fc4e11b35585c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ea5173847fadb3f4d25d34fe915f7ab') in 0.001030 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Animations/PolyArtWizardMesh@Dancing Twerk.fbx
+  artifactKey: Guid(5115ff56108924b6fb28ad55fbd69172) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/PolyArtWizardMesh@Dancing Twerk.fbx using Guid(5115ff56108924b6fb28ad55fbd69172) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'beb1f4193b8890694640ff31be638339') in 0.004720 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/TextMesh Pro/Documentation/TextMesh Pro User Guide 2016.pdf
+  artifactKey: Guid(1b8d251f9af63b746bf2f7ffe00ebb9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Documentation/TextMesh Pro User Guide 2016.pdf using Guid(1b8d251f9af63b746bf2f7ffe00ebb9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06d594f0f45c0070f56c2dd42a9bd84c') in 0.001130 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Materials/Ground
+  artifactKey: Guid(41902bb15079248aca521fa83c2de1b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Ground using Guid(41902bb15079248aca521fa83c2de1b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc213bf3847d3200a51395a41b9f9221') in 0.000435 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/TextMesh Pro/Sprites
+  artifactKey: Guid(d0603b6d5186471b96c778c3949c7ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Sprites using Guid(d0603b6d5186471b96c778c3949c7ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b27a52c99a9f8f9ac4f70e63a6bb6f32') in 0.000400 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Textures/Slash.png
+  artifactKey: Guid(52eef6aa133a854489e620987374b364) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic effects pack/Textures/Slash.png using Guid(52eef6aa133a854489e620987374b364) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02e5918fed6b70d7447088fc5dbff32f') in 0.004540 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Sprites/ShopImage.png
+  artifactKey: Guid(505cf01e7d15cd1489968a8ee7040f56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/ShopImage.png using Guid(505cf01e7d15cd1489968a8ee7040f56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ac40318265df63ef77124027233d579') in 0.228484 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/WizardPolyArt/SRP/HowToTestSRPs.txt
+  artifactKey: Guid(deb58950d64c620499ec0ad67cd8dd9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WizardPolyArt/SRP/HowToTestSRPs.txt using Guid(deb58950d64c620499ec0ad67cd8dd9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '662db4dbb6694a7544f3e7ad243e2757') in 0.001554 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/TextMesh Pro/Resources
+  artifactKey: Guid(243e06394e614e5d99fab26083b707fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources using Guid(243e06394e614e5d99fab26083b707fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73107d1020a62e3def86c468d2a05456') in 0.000410 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/WizardPolyArt/Prefabs/Staff02Polyart.prefab
+  artifactKey: Guid(e55280988a6fa1843a32025141146c2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WizardPolyArt/Prefabs/Staff02Polyart.prefab using Guid(e55280988a6fa1843a32025141146c2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '390e1166a5f80dbb653e6006ff37b923') in 0.005089 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Scriptable Objects/Towers/ArcticPole.asset
+  artifactKey: Guid(6f8cda78b6c4a4cc4a2bd84589d52d21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scriptable Objects/Towers/ArcticPole.asset using Guid(6f8cda78b6c4a4cc4a2bd84589d52d21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a70e371e3fb7b698912c84487e32c916') in 0.001032 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Demo scene/Lightmap-0_comp_dir.png
+  artifactKey: Guid(4a3abcea8684f464a9b302dd7a047387) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic effects pack/Demo scene/Lightmap-0_comp_dir.png using Guid(4a3abcea8684f464a9b302dd7a047387) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9392f56683b2ff71189fb2165cd4ec0') in 0.004814 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Textures/Flash.png
+  artifactKey: Guid(497534591604c9c40922a9ea2ef833b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic effects pack/Textures/Flash.png using Guid(497534591604c9c40922a9ea2ef833b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14dfd65d5d154b089dc8c706897684be') in 0.003937 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Scripts/Enemy/StateMachine/StateFactory.cs
+  artifactKey: Guid(c8165e92a16b452fbe9f673b628df0f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Enemy/StateMachine/StateFactory.cs using Guid(c8165e92a16b452fbe9f673b628df0f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1debaee8c8324cdfa58ae33096755df4') in 0.000684 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Scripts/HUD/Menu/Shop/ShopCardInteract.cs
+  artifactKey: Guid(4f1597318c3d46b7abf6f32f4ca23d90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/HUD/Menu/Shop/ShopCardInteract.cs using Guid(4f1597318c3d46b7abf6f32f4ca23d90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '740256fec7557bbdf7b2001b999f3df5') in 0.000652 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/TextMesh Pro/Fonts/LiberationSans.ttf
+  artifactKey: Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts/LiberationSans.ttf using Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e05e5b326e6db9074dd92d1b62f37c83') in 0.969910 seconds 
