@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf2420c873dd40fba4ef989c23ba770a, type: 3}
+  m_Name: HeartMonk
+  m_EditorClassIdentifier: 
+  cards: 2
+  name: Support
+  description: The HeartMonk heal your castle
+  iD: 2
+  hitValue: 2
+  fireRate: 5
+  gameUpgrade: 30
+  material: {fileID: 2100000, guid: 94fc7cb1ea81f495691ae872f6d0ec74, type: 2}
