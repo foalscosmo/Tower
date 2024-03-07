@@ -16,7 +16,7 @@ MonoBehaviour:
   name: Support
   description: The HeartMonk heal your castle
   iD: 2
-  hitValue: 2
+  hitValue: 4
   fireRate: 5
   gameUpgrade: 30
   material: {fileID: 2100000, guid: 94fc7cb1ea81f495691ae872f6d0ec74, type: 2}

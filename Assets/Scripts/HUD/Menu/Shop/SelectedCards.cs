@@ -110,6 +110,7 @@ namespace HUD.Menu.Shop
             Number = index; // Update the selected card index
             OnRemovePressed?.Invoke(receivedCardId[index]); // Trigger the OnRemovePressed event and pass the received card ID
             receivedCardId[index] = 0;  // Reset the received card ID to 0
+            
         }
     }
 }

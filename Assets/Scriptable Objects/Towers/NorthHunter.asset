@@ -16,7 +16,7 @@ MonoBehaviour:
   name: Burst Warrior
   description: The NorthHunter tower hits number of amount enemy together
   iD: 4
-  hitValue: 5
+  hitValue: 10
   fireRate: 0.4
   gameUpgrade: 50
   material: {fileID: 2100000, guid: 465f6500be5e643d1a4bc94948e5c1f7, type: 2}

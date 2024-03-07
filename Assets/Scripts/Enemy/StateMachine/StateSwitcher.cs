@@ -15,10 +15,12 @@ namespace Enemy.StateMachine
         /// <param name="newState">The new enemy state to switch to.</param>
         public void BaseStateSwitcher(EnemyBaseStateMachine newState)
         {
-            if (EnemyBaseState == newState) return; // If the new state is the same as the current state, no action is required
-            EnemyBaseState.End(); // End the current state
-            EnemyBaseState = newState; // Assign the new state
-            EnemyBaseState.Begin(); // Begin the new state
+            if (EnemyBaseState != newState) // If the new state is the same as the current state, no action is required
+            {
+                EnemyBaseState.End(); // End the current state
+                EnemyBaseState = newState; // Assign the new state
+                EnemyBaseState.Begin(); // Begin the new state
+            }
         }
     }
 }

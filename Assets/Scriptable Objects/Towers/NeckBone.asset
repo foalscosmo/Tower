@@ -15,8 +15,8 @@ MonoBehaviour:
   cards: 0
   name: Archer Warrior
   description: The NeckBone tower targets an enemy that is close to the castle.
-  iD: 3
-  hitValue: 4
+  iD: 2
+  hitValue: 8
   fireRate: 1
   gameUpgrade: 40
   material: {fileID: 2100000, guid: e9490b83c31e7452e8bb73ed1fcb3113, type: 2}

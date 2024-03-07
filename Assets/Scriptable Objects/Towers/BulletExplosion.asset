@@ -15,8 +15,8 @@ MonoBehaviour:
   cards: 1
   name: Burst Warrior
   description: The  BullettExplosion ower hits number of amount enemy together
-  iD: 0
-  hitValue: 4
+  iD: 1
+  hitValue: 8
   fireRate: 0.6
   gameUpgrade: 20
   material: {fileID: 2100000, guid: d78f195ff11a44fdd8e153efb5d5ce72, type: 2}

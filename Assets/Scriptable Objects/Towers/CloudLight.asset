@@ -15,8 +15,8 @@ MonoBehaviour:
   cards: 3
   name: Support
   description: The  CloudLight heal your castle
-  iD: 1
-  hitValue: 8
+  iD: 3
+  hitValue: 16
   fireRate: 9
   gameUpgrade: 50
   material: {fileID: 2100000, guid: 465f6500be5e643d1a4bc94948e5c1f7, type: 2}
